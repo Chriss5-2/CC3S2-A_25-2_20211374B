@@ -2,6 +2,7 @@ from flask import Flask, jsonify
 import os
 import sys
 
+
 # 12-Factor: configuración vía variables de entorno (sin valores codificados)
 PORT = int(os.environ.get("PORT", "8080"))
 MESSAGE = os.environ.get("MESSAGE", "Hola")
@@ -19,6 +20,18 @@ def root():
         release=RELEASE,
         port=PORT,
     )
+
+
+@app.route("/readyz")
+def readyz():
+    try:
+        return {"status": "ok"}, 200
+    except:
+        return {"status": "unavailable"}, 503
+
+@app.route("/livez")
+def livez():
+    return {"status": "alive"}, 200
 
 if __name__ == "__main__":
     # 12-Factor: vincular a un puerto; proceso único; sin estado

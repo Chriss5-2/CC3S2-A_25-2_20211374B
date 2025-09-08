@@ -94,6 +94,17 @@ $(VENV):
 	@echo "Creando venv con: $(PY_BOOT) -m venv --prompt $(VENV_PROMPT) $(VENV)"
 	@$(PY_BOOT) -m venv --prompt "$(VENV_PROMPT)" $(VENV)
 
+.PHONY: deps
+deps:  #$(VENV) ## Instalar dependencias de la app en la venv ya creada
+	@echo "Eliminando la venv anterior"
+	@rm -rf $(VENV)
+	@echo "Creando venv con: $(PY_BOOT) -m venv --prompt $(VENV_PROMPT) $(VENV)"
+	@$(PY_BOOT) -m venv --prompt "$(VENV_PROMPT)" $(VENV)
+	@echo "Entrando a la venv bdd e instalando el archivo requirements.txt (si existe)..."
+	@$(PIP) install --upgrade pip > /dev/null
+	@$(PIP) install -r requirements.txt > /dev/null
+	@echo "Dependencias instaladas."
+
 .PHONY: venv-recreate
 venv-recreate: ## Recrear la venv 'bdd' desde cero
 	@rm -rf $(VENV)
