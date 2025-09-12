@@ -1,0 +1,24 @@
+*   commit 84d0af55f34be5acec9c46399c23041b812af3e9 (HEAD -> master)
+|\  Merge: b3f0a65 6f995c3
+| | Author: Chriss5-2 <christiangiovannixd@gmail.com>
+| | Date:   Mon Sep 8 15:01:34 2025 -0500
+| | 
+| |     Merge branch 'add-feature'
+| | 
+| * commit 6f995c335da882eb6257bcd9ebc182260bda36a8 (add-feature)
+| | Author: Chriss5-2 <christiangiovannixd@gmail.com>
+| | Date:   Mon Sep 8 15:00:19 2025 -0500
+| | 
+| |     Segundo commit de add-feature
+| | 
+| * commit 730ebd73978a0fc377f0d12c194057820e121af2
+|/  Author: Chriss5-2 <christiangiovannixd@gmail.com>
+|   Date:   Mon Sep 8 14:59:51 2025 -0500
+|   
+|       Primer commit de add-feature
+| 
+* commit b3f0a65d37dd10600f896fbf18018dd950636cea
+  Author: Chriss5-2 <christiangiovannixd@gmail.com>
+  Date:   Mon Sep 8 14:58:58 2025 -0500
+  
+      Primer commit en master

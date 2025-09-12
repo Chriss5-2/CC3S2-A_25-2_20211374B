@@ -1,0 +1,11 @@
+* 4c54bee (HEAD -> master) Arreglando conflicto entre merge de master y squash branch
+* ef66de6 Modificación desde master
+| * 0e03037 (squash) Modificación 2 de prueba para realizar squash
+| * 75e0412 Modificación de prueba para realizar squash
+|/  
+*   eaafc99 Merge branch 'feature-update'
+|\  
+| * 5159e28 (feature-update) Modificación de encabezado - rama feature_update
+* | eea834c Modificación de encabezado - rama master
+|/  
+* 03a6243 Commit inicial en master

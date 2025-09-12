@@ -1,0 +1,23 @@
+* commit 3c82cb912621de29f49043e6b47efa33108f3364 (HEAD -> master)
+| Author: Chriss5-2 <christiangiovannixd@gmail.com>
+| Date:   Mon Sep 8 15:08:59 2025 -0500
+| 
+|     Squash de feature-3: documentación estándar
+|   
+| * commit 587a1032a055b19605b8f4bed2b6bda1f13fc90d (feature-3)
+| | Author: Chriss5-2 <christiangiovannixd@gmail.com>
+| | Date:   Mon Sep 8 15:07:44 2025 -0500
+| | 
+| |     Segundo commit en feature-3
+| | 
+| * commit e086da6d8c96420ed06d14a77cbf41dccb1f15fc
+|/  Author: Chriss5-2 <christiangiovannixd@gmail.com>
+|   Date:   Mon Sep 8 15:06:43 2025 -0500
+|   
+|       Primero commit en feature-3
+| 
+* commit 20e3e33013f6f81369b0c8b68f83463e30f5550d
+  Author: Chriss5-2 <christiangiovannixd@gmail.com>
+  Date:   Mon Sep 8 15:05:33 2025 -0500
+  
+      Primero commit en master

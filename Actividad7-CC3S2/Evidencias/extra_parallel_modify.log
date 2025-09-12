@@ -1,0 +1,8 @@
+*   b8d4d0a (HEAD -> master) Merge --no-ff main_feature
+|\  
+| * e8db8bd (feature) Commit 2 - feature
+| * 7a04274 Commit 1 - feature
+* | 6b73fb5 Commit 3 - master
+* | 8a3ff54 Commit 2 - master
+|/  
+* bdd929e Commit 1 - master

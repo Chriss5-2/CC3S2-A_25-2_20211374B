@@ -1,0 +1,36 @@
+*   commit b8d4d0a3105995b0201602b632b55ebcab931e02 (HEAD -> master)
+|\  Merge: 6b73fb5 e8db8bd
+| | Author: Chriss5-2 <christiangiovannixd@gmail.com>
+| | Date:   Mon Sep 8 16:03:27 2025 -0500
+| | 
+| |     Merge --no-ff main_feature
+| | 
+| * commit e8db8bde9044e00df217549cf51ca1d80176290d (feature)
+| | Author: Chriss5-2 <christiangiovannixd@gmail.com>
+| | Date:   Mon Sep 8 15:54:11 2025 -0500
+| | 
+| |     Commit 2 - feature
+| | 
+| * commit 7a04274b041b3bf397b001cd43be8ebbb22e4719
+| | Author: Chriss5-2 <christiangiovannixd@gmail.com>
+| | Date:   Mon Sep 8 15:52:53 2025 -0500
+| | 
+| |     Commit 1 - feature
+| | 
+* | commit 6b73fb5b5b3c0274b6e3aad9774846d6758ad29e
+| | Author: Chriss5-2 <christiangiovannixd@gmail.com>
+| | Date:   Mon Sep 8 16:01:46 2025 -0500
+| | 
+| |     Commit 3 - master
+| | 
+* | commit 8a3ff549c94da5159b519fb802b529e3ef758f59
+|/  Author: Chriss5-2 <christiangiovannixd@gmail.com>
+|   Date:   Mon Sep 8 15:53:24 2025 -0500
+|   
+|       Commit 2 - master
+| 
+* commit bdd929edbb7bf45a5b95902b391a4d425a084532
+  Author: Chriss5-2 <christiangiovannixd@gmail.com>
+  Date:   Mon Sep 8 15:51:03 2025 -0500
+  
+      Commit 1 - master
