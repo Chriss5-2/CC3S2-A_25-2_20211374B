@@ -148,3 +148,97 @@ dockerd.log           [34;42msystem-commandline-sentinel-files[0m  [01;35mvsc
 [?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli [0;36m([1;31mmain[0;36m) [0m$ ls /tmp [K/[K[Kp/ > tmp_lista
 [?2004l[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli [0;36m([1;31mmain[0;36m) [0m$ [7mprintf "Línea1\nLínea2\n" > test.txt[27mprintf "Línea1\nLínea2\n" > test.txt
 [?2004l[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli [0;36m([1;31mmain[0;36m) [0m$ printf "Línea1\nLínea2\n" > test.txt[16Pls /tmp/ > tmp_lista[Kfind /tmp -maxdepth 1 -type f \( -name '*.txt' -o -name '*.doc' \) | wc -lclear[Kd ../workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli/ls -al[Kcd /tmp/[3Pleard workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli/..[Kls -alcd /tmp/[3Pls -acd /etc/; ls -a > ~/etc_lista.txt[13Pgit push origin maincommit -m "Agregando avance de Actividad4"add -A[Kstatusfind / --name 'etc' 2>/dev/null [2Pecho "archivo3.txt" | xargs rm2[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[13@1.txt archivo[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctouch archivo1.txt archivo2.txt archivo3.txt
+[?2004l[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli [0;36m([1;31mmain[0;36m) [0m$ [7mfind . -maxdepth 1 -name 'archivo*.txt' | xargs echo rm[27mfind . -maxdepth 1 -name 'archivo*.txt' | xargs echo rm
+[?2004lrm ./archivo2.txt ./archivo3.txt ./archivo1.txt
+[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli [0;36m([1;31mmain[0;36m) [0m$ [7mls noexiste 2>> errores.log[27mls noexiste 2>> errores.log
+[?2004l[?2004h[0;32m@Chriss5-2 [1;31m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli [0;36m([1;31mmain[0;36m) [0m$ nl test.txt 
+[?2004l     1	Línea1
+     2	Línea2
+[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli [0;36m([1;31mmain[0;36m) [0m$ wc -l list[K[K[K[K[K tmp_lista 
+[?2004l12 tmp_lista
+[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli [0;36m([1;31mmain[0;36m) [0m$ wc -l tmp_lista [4Pnl test.txt[C>> README.md 
+[?2004l[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli [0;36m([1;31mmain[0;36m) [0m$ nl test.txt >> README.md [9Pwc -l tmp_lista[C[K[K[K[K[K[K[K[K[Kest.txt >> README.md 
+[?2004l[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli [0;36m([1;31mmain[0;36m) [0m$ git add[K[K[Kstatus
+[?2004lOn branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   README.md[m
+	[31mmodified:   evidencias/sesion.txt[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31marchivo1.txt[m
+	[31marchivo2.txt[m
+	[31marchivo3.txt[m
+	[31merrores.log[m
+	[31mtest.txt[m
+	[31mtmp_lista[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli [0;36m([1;31mmain[0;36m) [0m$ git add - A[K[KA[K[K.
+[?2004l[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli [0;36m([1;31mmain[0;36m) [0m$ git status
+[?2004lOn branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mmodified:   README.md[m
+	[32mnew file:   archivo1.txt[m
+	[32mnew file:   archivo2.txt[m
+	[32mnew file:   archivo3.txt[m
+	[32mnew file:   errores.log[m
+	[32mmodified:   evidencias/sesion.txt[m
+	[32mnew file:   test.txt[m
+	[32mnew file:   tmp_lista[m
+
+[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli [0;36m([1;31mmain[0;36m) [0m$ git commit -m "A[KFinalizando Sección 1"
+[?2004l[main 4271ef3] Finalizando Sección 1
+ 8 files changed, 149 insertions(+), 1 deletion(-)
+ create mode 100644 Actividad4-CC3S2/lab-cli/archivo1.txt
+ create mode 100644 Actividad4-CC3S2/lab-cli/archivo2.txt
+ create mode 100644 Actividad4-CC3S2/lab-cli/archivo3.txt
+ create mode 100644 Actividad4-CC3S2/lab-cli/errores.log
+ create mode 100644 Actividad4-CC3S2/lab-cli/test.txt
+ create mode 100644 Actividad4-CC3S2/lab-cli/tmp_lista
+[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli [0;36m([1;31mmain[0;36m) [0m$ git push origin main
+[?2004lEnumerating objects: 17, done.
+Counting objects:   5% (1/17)Counting objects:  11% (2/17)Counting objects:  17% (3/17)Counting objects:  23% (4/17)Counting objects:  29% (5/17)Counting objects:  35% (6/17)Counting objects:  41% (7/17)Counting objects:  47% (8/17)Counting objects:  52% (9/17)Counting objects:  58% (10/17)Counting objects:  64% (11/17)Counting objects:  70% (12/17)Counting objects:  76% (13/17)Counting objects:  82% (14/17)Counting objects:  88% (15/17)Counting objects:  94% (16/17)Counting objects: 100% (17/17)Counting objects: 100% (17/17), done.
+Delta compression using up to 2 threads
+Compressing objects:  14% (1/7)Compressing objects:  28% (2/7)Compressing objects:  42% (3/7)Compressing objects:  57% (4/7)Compressing objects:  71% (5/7)Compressing objects:  85% (6/7)Compressing objects: 100% (7/7)Compressing objects: 100% (7/7), done.
+Writing objects:   9% (1/11)Writing objects:  18% (2/11)Writing objects:  27% (3/11)Writing objects:  36% (4/11)Writing objects:  45% (5/11)Writing objects:  54% (6/11)Writing objects:  63% (7/11)Writing objects:  72% (8/11)Writing objects:  81% (9/11)Writing objects:  90% (10/11)Writing objects: 100% (11/11)Writing objects: 100% (11/11), 5.01 KiB | 2.50 MiB/s, done.
+Total 11 (delta 2), reused 1 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas:   0% (0/2)[Kremote: Resolving deltas:  50% (1/2)[Kremote: Resolving deltas: 100% (2/2)[Kremote: Resolving deltas: 100% (2/2), completed with 2 local objects.[K
+To https://github.com/Chriss5-2/CC3S2-A_25-2_20211374B
+   74bccae..4271ef3  main -> main
+[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli [0;36m([1;31mmain[0;36m) [0m$ git status
+[?2004lOn branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   evidencias/sesion.txt[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli [0;36m([1;31mmain[0;36m) [0m$ git rm Cur[K[K[K[Kdir Cur[K[K[K[K[K[K[K[K[K[K[K[K[Kgit rm -r [K[K[K[K[K[K[K[K[K[Kgit add evidencias/
+[?2004l[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli [0;36m([1;31mmain[0;36m) [0m$ cd ../..
+[?2004l[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B [0;36m([1;31mmain[0;36m) [0m$ git rm-[K -r Curso-CC3S2/
+[?2004lfatal: could not lookup name for submodule 'Curso-CC3S2'
+[?2004h[0;32m@Chriss5-2 [1;31m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B [0;36m([1;31mmain[0;36m) [0m$ [7mgit submodule deinit -f Curso-CC3S2[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit submodule deinit -f Curso-CC3S2
+[A
+[?2004l[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B [0;36m([1;31mmain[0;36m) [0m$ [7mrm -rf .git/modules/Curso-CC3S2[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crm -rf .git/modules/Curso-CC3S2
+[A
+[?2004l[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B [0;36m([1;31mmain[0;36m) [0m$ [7mgit rm -f Curso-CC3S2[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit rm -f Curso-CC3S2
+[A
+[?2004lfatal: could not lookup name for submodule 'Curso-CC3S2'
+[?2004h[0;32m@Chriss5-2 [1;31m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B [0;36m([1;31mmain[0;36m) [0m$ nano .git/[Ksub[K[K[Kmo[K[K[K[K[K[K[K[K[K[K[Kls -al
+[?2004ltotal 32
+drwxrwxrwx+ 8 codespace root      4096 Sep 22 22:31 [0m[34;42m.[0m
+drwxr-xrwx+ 5 codespace root      4096 Sep 22 22:20 [34;42m..[0m
+drwxrwxrwx+ 8 codespace root      4096 Sep 22 23
