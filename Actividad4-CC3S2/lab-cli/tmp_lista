@@ -1,0 +1,12 @@
+BuildScriptGenerator
+codespaces_logs
+dockerd.log
+sshd.log
+storage_version.txt
+system-commandline-sentinel-files
+vscode-git-25f690b1a7.sock
+vscode-git-b629912b4c.sock
+vscode-ipc-45215d3d-2126-47cd-98c5-0ecd53928a66.sock
+vscode-ipc-8d5023ee-179a-4558-8134-7540cf65cb65.sock
+vscode-ipc-cd4bd721-0814-4a6a-9f81-c0c35074c0c2.sock
+vscode-typescript1000

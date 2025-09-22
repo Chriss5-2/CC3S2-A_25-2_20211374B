@@ -29,4 +29,122 @@ Script started on 2025-09-22 22:44:32+00:00 [TERM="xterm-256color" TTY="/dev/pts
 [?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli [0;36m([1;31mmain[0;36m) [0m$ ls -A | wc -l[3P[C[C[C[C[C[C[C >> README.md 
 [?2004l[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli [0;36m([1;31mmain[0;36m) [0m$ ls | wc -l >> README.md [11P-A | wc -l >> README.md 
 [?2004l[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli [0;36m([1;31mmain[0;36m) [0m$ [7mfind . -maxdepth 1 -name 'archivo*.txt' -print0 | xargs -0 rm --[27mfind . -maxdepth 1 -name 'archivo*.txt' -print0 | xargs -0 rm --
-[?2004l[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli [0;36m([1;31mmain[0;36m) [0m$ find . -maxdepth 1 -name 'archivo*.txt' -print0 | xargs -0 rm --[37Pls -A | wc -l >> README.md [3P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[11P-A | wc -l[3P[C[C[C[C[C[C[Carchivo*.txt >> README.md [7P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[35@touch archivo1.txt archivo2.txt archivo3.txt >>[C[C[C[C[C[C[C[C[C[C[
+[?2004l[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli [0;36m([1;31mmain[0;36m) [0m$ find . -maxdepth 1 -name 'archivo*.txt' -print0 | xargs -0 rm --[37Pls -A | wc -l >> README.md [3P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[11P-A | wc -l[3P[C[C[C[C[C[C[Carchivo*.txt >> README.md [7P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[35@touch archivo1.txt archivo2.txt archivo3.txt >>[C[C[C[C[C[C[C[C[C[C[34Pls *.txt 2>> [C[C[C[C[C[C[C[C[C[C[34@touch archivo1.txt archivo2.txt archivo3.txt >>[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[Kt
+[?2004l[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli [0;36m([1;31mmain[0;36m) [0m$ [7mfind . -name 'archivo*.txt' -exec rm -i {} +[27mfind . -name 'archivo*.txt' -exec rm -i {} +
+[?2004lrm: remove regular empty file './archivo2.txt'? yes
+rm: remove regular empty file './archivo3.txt'? yes
+rm: remove regular empty file './archivo1.txt'? yes
+[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli [0;36m([1;31mmain[0;36m) [0m$ find . -name 'archivo*.txt' -exec rm -i {} +touch archivo1.txt archivo2.txt archivo3.txt
+[?2004l[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli [0;36m([1;31mmain[0;36m) [0m$ [7mecho "archivo1.txt archivo2.txt" | xargs rm[27mecho "archivo1.txt archivo2.txt" | xargs rm
+[?2004l[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli [0;36m([1;31mmain[0;36m) [0m$ echo "archivo1.txt archivo2.txt" | xargs rm[C[C[C[C[C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@v[1@o[1@2[1@.[1@r[1@x[1@r[1P[1P[1P[1@t[1@x[1@t
+[?2004lrm: cannot remove 'archivo2.txt': No such file or directory
+[?2004h[0;32m@Chriss5-2 [1;31m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli [0;36m([1;31mmain[0;36m) [0m$ echo "archivo2.txt" | xargs rm[C[C[C[1P[1@3
+[?2004l[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli [0;36m([1;31mmain[0;36m) [0m$ find --name [K[K[K[K[K[K[K[K / --name 'etc' ">[K[K2>/dev/null 
+[?2004l[?2004h[0;32m@Chriss5-2 [1;31m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli [0;36m([1;31mmain[0;36m) [0m$ git stu[Katus
+[?2004lOn branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m../[m
+	[31m../../Curso-CC3S2/[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli [0;36m([1;31mmain[0;36m) [0m$ git add -A
+[?2004lwarning: adding embedded git repository: Curso-CC3S2
+[33mhint: You've added another git repository inside your current repository.[m
+[33mhint: Clones of the outer repository will not contain the contents of[m
+[33mhint: the embedded repository and will not know how to obtain it.[m
+[33mhint: If you meant to add a submodule, use:[m
+[33mhint:[m
+[33mhint: 	git submodule add <url> Curso-CC3S2[m
+[33mhint:[m
+[33mhint: If you added this path by mistake, you can remove it from the[m
+[33mhint: index with:[m
+[33mhint:[m
+[33mhint: 	git rm --cached Curso-CC3S2[m
+[33mhint:[m
+[33mhint: See "git help submodule" for more information.[m
+[33mhint: Disable this message with "git config set advice.addEmbeddedRepo false"[m
+[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli [0;36m([1;31mmain[0;36m) [0m$ git a[Kcommit -m "Crea[K[K[K[KAgregando avance de Actividad4"
+[?2004l[main 74bccae] Agregando avance de Actividad4
+ 3 files changed, 127 insertions(+)
+ create mode 100644 Actividad4-CC3S2/lab-cli/README.md
+ create mode 100644 Actividad4-CC3S2/lab-cli/evidencias/sesion.txt
+ create mode 160000 Curso-CC3S2
+[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli [0;36m([1;31mmain[0;36m) [0m$ git push origin main
+[?2004lEnumerating objects: 8, done.
+Counting objects:  12% (1/8)Counting objects:  25% (2/8)Counting objects:  37% (3/8)Counting objects:  50% (4/8)Counting objects:  62% (5/8)Counting objects:  75% (6/8)Counting objects:  87% (7/8)Counting objects: 100% (8/8)Counting objects: 100% (8/8), done.
+Delta compression using up to 2 threads
+Compressing objects:  20% (1/5)Compressing objects:  40% (2/5)Compressing objects:  60% (3/5)Compressing objects:  80% (4/5)Compressing objects: 100% (5/5)Compressing objects: 100% (5/5), done.
+Writing objects:  14% (1/7)Writing objects:  28% (2/7)Writing objects:  42% (3/7)Writing objects:  57% (4/7)Writing objects:  71% (5/7)Writing objects:  85% (6/7)Writing objects: 100% (7/7)Writing objects: 100% (7/7), 2.58 KiB | 2.58 MiB/s, done.
+Total 7 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+To https://github.com/Chriss5-2/CC3S2-A_25-2_20211374B
+   698e32d..74bccae  main -> main
+[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli [0;36m([1;31mmain[0;36m) [0m$ cd /etc/; ls -a > ~/etc_lista.txt
+[?2004l[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/etc [0m$ ls -a
+[?2004l[0m[01;34m.[0m                       [01;34mca-certificates[0m       [01;34mdpkg[0m          gshadow      [01;34mld.so.conf.d[0m   magic.mime      [01;36mos-release[0m  [01;34mrc4.d[0m        [01;34mssh[0m                ucf.conf
+[01;34m..[0m                      ca-certificates.conf  e2scrub.conf  gshadow-     legal          mailcap         pam.conf    [01;34mrc5.d[0m        [01;34mssl[0m                [01;34mufw[0m
+.pwd.lock               [01;34mcloud[0m                 [01;34memacs[0m         [01;34mgss[0m          libaudit.conf  mailcap.order   [01;34mpam.d[0m       [01;34mrc6.d[0m        subgid             [01;34mupdate-motd.d[0m
+[01;34mODBCDataSources[0m         [01;34mcredstore[0m             environment   host.conf    [01;34mlibnl-3[0m        manpath.config  passwd      [01;34mrcS.d[0m        subgid-            [40;31;01mvconsole.conf[0m
+[01;34mPackageKit[0m              [01;34mcredstore.encrypted[0m   ethertypes    hostname     [01;34mlighttpd[0m       mime.types      passwd-     resolv.conf  subuid             [01;34mvim[0m
+[01;34mX11[0m                     [01;34mcron.d[0m                [01;34mfish[0m          hosts        locale.alias   mke2fs.conf     [01;34mperl[0m        [01;36mrmt[0m          subuid-            wgetrc
+adduser.conf            [01;34mcron.daily[0m            [01;34mfonts[0m         hosts.allow  locale.conf    [01;34mmodules-load.d[0m  [01;34mpolkit-1[0m    rpc          sudo.conf          xattr.conf
+[01;34malternatives[0m            [01;34mcron.weekly[0m           fstab         hosts.deny   locale.gen     [01;36mmtab[0m            profile     rvmrc        sudo_logsrvd.conf  [01;34mxdg[0m
+[01;34mapache2[0m                 csh.login             gai.conf      [01;34minit.d[0m       [01;36mlocaltime[0m      [01;34mmysql[0m           [01;34mprofile.d[0m   [01;34msecurity[0m     sudoers            [01;34mxml[0m
+[01;34mapparmor.d[0m              [01;34mdbus-1[0m                [01;34mgdb[0m           inputrc      [01;34mlogcheck[0m       nanorc          protocols   [01;34mselinux[0m      [01;34msudoers.d[0m          [01;34mzsh[0m
+[01;34mapt[0m                     debconf.conf          gitconfig     [01;34miproute2[0m     login.defs     netconfig       [01;34mpython3[0m     services     sysctl.conf
+bash.bashrc             debian_version        [01;34mgnutls[0m        issue        [01;34mlogrotate.d[0m    networks        [01;34mpython3.12[0m  [01;34msgml[0m         [01;34msysctl.d[0m
+bash_completion         [01;34mdebuginfod[0m            gprofng.rc    issue.net    lsb-release    nsswitch.conf   [01;34mrc0.d[0m       shadow       [01;34msystemd[0m
+[01;34mbash_completion.d[0m       [01;34mdefault[0m               [01;34mgroff[0m         [01;34mkernel[0m       [01;34mlynx[0m           odbc.ini        [01;34mrc1.d[0m       shadow-      [01;34mterminfo[0m
+bindresvport.blacklist  deluser.conf          group         ld.so.cache  machine-id     odbcinst.ini    [01;34mrc2.d[0m       shells       timezone
+[01;34mbinfmt.d[0m                [01;34mdocker[0m                group-        ld.so.conf   magic          [01;34mopt[0m             [01;34mrc3.d[0m       [01;34mskel[0m         [01;34mtmpfiles.d[0m
+[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/etc [0m$ ls -acd /etc/; ls -a > ~/etc_lista.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls -a[K[Kcd /tmp/
+[?2004l[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/tmp [0m$ ls -al
+[?2004ltotal 40
+drwxr-xrwt+ 6 root      root       4096 Sep 22 22:29 [0m[30;42m.[0m
+drwxr-xr-x  1 root      root       4096 Sep 22 22:19 [01;34m..[0m
+drwxr-xrw-+ 3 codespace codespace  4096 Sep 22 22:20 [34;42mBuildScriptGenerator[0m
+drwxr-xrw-+ 2 codespace codespace  4096 Sep 22 22:24 [34;42mcodespaces_logs[0m
+-rw-r--rw-  1 root      root      11590 Sep 22 22:19 dockerd.log
+-rw-r--rw-  1 root      root         57 Sep 22 22:19 sshd.log
+-rw-r--rw-  1 root      root          0 Sep 22 22:19 storage_version.txt
+drwxr-xrw-+ 2 codespace codespace  4096 Sep 22 22:20 [34;42msystem-commandline-sentinel-files[0m
+srwxr-xr--  1 codespace codespace     0 Sep 22 22:20 [01;35mvscode-git-25f690b1a7.sock[0m
+srwxr-xr--  1 codespace codespace     0 Sep 22 22:25 [01;35mvscode-git-b629912b4c.sock[0m
+srwxr-xr--  1 codespace codespace     0 Sep 22 22:20 [01;35mvscode-ipc-45215d3d-2126-47cd-98c5-0ecd53928a66.sock[0m
+srwxr-xr--  1 codespace codespace     0 Sep 22 22:24 [01;35mvscode-ipc-8d5023ee-179a-4558-8134-7540cf65cb65.sock[0m
+srwxr-xr--  1 codespace codespace     0 Sep 22 22:20 [01;35mvscode-ipc-cd4bd721-0814-4a6a-9f81-c0c35074c0c2.sock[0m
+drwxr-xrw-+ 2 codespace codespace  4096 Sep 22 22:29 [34;42mvscode-typescript1000[0m
+[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/tmp [0m$ cd ..
+[?2004l[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/ [0m$ cd workspaces/cc[K[KCC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli/
+[?2004l[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli [0;36m([1;31mmain[0;36m) [0m$ clear
+[?2004l[H[2J[3J[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli [0;36m([1;31mmain[0;36m) [0m$ cd /tmp/
+[?2004l[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/tmp [0m$ ls -al
+[?2004ltotal 40
+drwxr-xrwt+ 6 root      root       4096 Sep 22 22:29 [0m[30;42m.[0m
+drwxr-xr-x  1 root      root       4096 Sep 22 22:19 [01;34m..[0m
+drwxr-xrw-+ 3 codespace codespace  4096 Sep 22 22:20 [34;42mBuildScriptGenerator[0m
+drwxr-xrw-+ 2 codespace codespace  4096 Sep 22 22:24 [34;42mcodespaces_logs[0m
+-rw-r--rw-  1 root      root      11590 Sep 22 22:19 dockerd.log
+-rw-r--rw-  1 root      root         57 Sep 22 22:19 sshd.log
+-rw-r--rw-  1 root      root          0 Sep 22 22:19 storage_version.txt
+drwxr-xrw-+ 2 codespace codespace  4096 Sep 22 22:20 [34;42msystem-commandline-sentinel-files[0m
+srwxr-xr--  1 codespace codespace     0 Sep 22 22:20 [01;35mvscode-git-25f690b1a7.sock[0m
+srwxr-xr--  1 codespace codespace     0 Sep 22 22:25 [01;35mvscode-git-b629912b4c.sock[0m
+srwxr-xr--  1 codespace codespace     0 Sep 22 22:20 [01;35mvscode-ipc-45215d3d-2126-47cd-98c5-0ecd53928a66.sock[0m
+srwxr-xr--  1 codespace codespace     0 Sep 22 22:24 [01;35mvscode-ipc-8d5023ee-179a-4558-8134-7540cf65cb65.sock[0m
+srwxr-xr--  1 codespace codespace     0 Sep 22 22:20 [01;35mvscode-ipc-cd4bd721-0814-4a6a-9f81-c0c35074c0c2.sock[0m
+drwxr-xrw-+ 2 codespace codespace  4096 Sep 22 22:29 [34;42mvscode-typescript1000[0m
+[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/tmp [0m$ cd ../workspaces/CC3S2-A_25-2_20211374B/ac[K[KActividad4-CC3S2/c[Klab-cli/
+[?2004l[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli [0;36m([1;31mmain[0;36m) [0m$ clear
+[?2004l[H[2J[3J[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli [0;36m([1;31mmain[0;36m) [0m$ [7mfind /tmp -maxdepth 1 -type f \( -name '*.txt' -o -name '*.doc' \) | wc -l[27mfind /tmp -maxdepth 1 -type f \( -name '*.txt' -o -name '*.doc' \) | wc -l
+[?2004l1
+[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli [0;36m([1;31mmain[0;36m) [0m$ ls /tmp/
+[?2004l[0m[34;42mBuildScriptGenerator[0m  sshd.log                           [01;35mvscode-git-25f690b1a7.sock[0m                            [01;35mvscode-ipc-8d5023ee-179a-4558-8134-7540cf65cb65.sock[0m
+[34;42mcodespaces_logs[0m       storage_version.txt                [01;35mvscode-git-b629912b4c.sock[0m                            [01;35mvscode-ipc-cd4bd721-0814-4a6a-9f81-c0c35074c0c2.sock[0m
+dockerd.log           [34;42msystem-commandline-sentinel-files[0m  [01;35mvscode-ipc-45215d3d-2126-47cd-98c5-0ecd53928a66.sock[0m  [34;42mvscode-typescript1000[0m
+[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli [0;36m([1;31mmain[0;36m) [0m$ ls /tmp [K/[K[Kp/ > tmp_lista
+[?2004l[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli [0;36m([1;31mmain[0;36m) [0m$ [7mprintf "Línea1\nLínea2\n" > test.txt[27mprintf "Línea1\nLínea2\n" > test.txt
+[?2004l[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli [0;36m([1;31mmain[0;36m) [0m$ printf "Línea1\nLínea2\n" > test.txt[16Pls /tmp/ > tmp_lista[Kfind /tmp -maxdepth 1 -type f \( -name '*.txt' -o -name '*.doc' \) | wc -lclear[Kd ../workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli/ls -al[Kcd /tmp/[3Pleard workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli/..[Kls -alcd /tmp/[3Pls -acd /etc/; ls -a > ~/etc_lista.txt[13Pgit push origin maincommit -m "Agregando avance de Actividad4"add -A[Kstatusfind / --name 'etc' 2>/dev/null [2Pecho "archivo3.txt" | xargs rm2[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[13@1.txt archivo[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctouch archivo1.txt archivo2.txt archivo3.txt

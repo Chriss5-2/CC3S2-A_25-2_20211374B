@@ -92,3 +92,18 @@ echo "archivo1.txt archivo2.txt" | xargs rm
 # Elimina nuevamente los archivos y toda como parametro los archivos dados con el echo
 ```
 
+### Comprobación
+Para mostrar las líneas enumeradas de un archivo usamos el comando **nl**
+```bash
+# Creamos un archivo test.txt con 2 líneas con contenido
+# nl test.txt
+     1	Línea1
+     2	Línea2
+```
+Para contar las líneas de un archivo usamos el comando  **wc -l**
+```bash
+# wc -l test.txt
+2 test.txt
+```
+
+## Administración básica
