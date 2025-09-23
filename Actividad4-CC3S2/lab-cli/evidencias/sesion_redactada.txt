@@ -1,0 +1,876 @@
+Script started on 2025-09-22 22:44:32+00:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="160" LINES="11"]
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ clerar
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ echo "# Actividad 4" > sesesi2334" > README.md 
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ #echo #"## ANavegación básica" >> README.md 
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ echo "Se ejecutarán pruebas básicas de acuerdo al tipo de comando descritpo" >> README.md 
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ echo "# PW## pwd"" >>  READREADME.md 
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ echo "Muestra el directorio actual en el que nos ubicamos" >> README.md 
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ pwd >> README.md 
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ echo "### ls" >> README.md 
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ echo "Enliasta todos los archivos y directorios sobre los que existen" >> README.md 
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ echo " #### Varls -al""echo "````bash" >> ReadEAD[1@ echo '````bash' >> README.md 
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ ls >> README.md 
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ echo "````'````' >> README.md 
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ clear
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ echo "ls -l >> README.md 
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ ls -a >> reREADME.md 
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ cd / ZZ>> README.md
+[?2004l[?2004h@Chriss5-2 ➜ / $ cd workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli/
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ cleals *.ytxt >> README.md 
+[?2004lls: cannot access '*.txt': No such file or directory
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ ls *.txt >> README.md [1@2[1@2
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ touch archivo1t.txt archivo2.ttxt archivo23.txt >>README.md 
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ ls *.txt >> README.md 
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ ls archivo*.txt >> README.md 
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ ls | wc -l
+[?2004l5
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ ls -A | wc -l
+[?2004l5
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ ls -A | wc -l >> README.md 
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ ls | wc -l >> README.md -A | wc -l >> README.md 
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ find . -maxdepth 1 -name 'archivo*.txt' -print0 | xargs -0 rm --find . -maxdepth 1 -name 'archivo*.txt' -print0 | xargs -0 rm --
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ find . -maxdepth 1 -name 'archivo*.txt' -print0 | xargs -0 rm --ls -A | wc -l >> README.md -A | wc -larchivo*.txt >> README.md [35@touch archivo1.txt archivo2.txt archivo3.txt >>ls *.txt 2>> [34@touch archivo1.txt archivo2.txt archivo3.txt >>t
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ find . -name 'archivo*.txt' -exec rm -i {} +find . -name 'archivo*.txt' -exec rm -i {} +
+[?2004lrm: remove regular empty file './archivo2.txt'? yes
+rm: remove regular empty file './archivo3.txt'? yes
+rm: remove regular empty file './archivo1.txt'? yes
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ find . -name 'archivo*.txt' -exec rm -i {} +touch archivo1.txt archivo2.txt archivo3.txt
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ echo "archivo1.txt archivo2.txt" | xargs rmecho "archivo1.txt archivo2.txt" | xargs rm
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ echo "archivo1.txt archivo2.txt" | xargs rm[1@v[1@o[1@2[1@.[1@r[1@x[1@r[1@t[1@x[1@t
+[?2004lrm: cannot remove 'archivo2.txt': No such file or directory
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ echo "archivo2.txt" | xargs rm[1@3
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ find --name  / --name 'etc' ">2>/dev/null 
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ git stuatus
+[?2004lOn branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	../
+	../../Curso-CC3S2/
+
+nothing added to commit but untracked files present (use "git add" to track)
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ git add -A
+[?2004lwarning: adding embedded git repository: Curso-CC3S2
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint:
+hint: 	git submodule add <url> Curso-CC3S2
+hint:
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint:
+hint: 	git rm --cached Curso-CC3S2
+hint:
+hint: See "git help submodule" for more information.
+hint: Disable this message with "git config set advice.addEmbeddedRepo false"
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ git acommit -m "CreaAgregando avance de Actividad4"
+[?2004l[main 74bccae] Agregando avance de Actividad4
+ 3 files changed, 127 insertions(+)
+ create mode 100644 Actividad4-CC3S2/lab-cli/README.md
+ create mode 100644 Actividad4-CC3S2/lab-cli/evidencias/sesion.txt
+ create mode 160000 Curso-CC3S2
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ git push origin main
+[?2004lEnumerating objects: 8, done.
+Counting objects:  12% (1/8)Counting objects:  25% (2/8)Counting objects:  37% (3/8)Counting objects:  50% (4/8)Counting objects:  62% (5/8)Counting objects:  75% (6/8)Counting objects:  87% (7/8)Counting objects: 100% (8/8)Counting objects: 100% (8/8), done.
+Delta compression using up to 2 threads
+Compressing objects:  20% (1/5)Compressing objects:  40% (2/5)Compressing objects:  60% (3/5)Compressing objects:  80% (4/5)Compressing objects: 100% (5/5)Compressing objects: 100% (5/5), done.
+Writing objects:  14% (1/7)Writing objects:  28% (2/7)Writing objects:  42% (3/7)Writing objects:  57% (4/7)Writing objects:  71% (5/7)Writing objects:  85% (6/7)Writing objects: 100% (7/7)Writing objects: 100% (7/7), 2.58 KiB | 2.58 MiB/s, done.
+Total 7 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas:   0% (0/1)remote: Resolving deltas: 100% (1/1)remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/Chriss5-2/CC3S2-A_25-2_20211374B
+   698e32d..74bccae  main -> main
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ cd /etc/; ls -a > ~/etc_lista.txt
+[?2004l[?2004h@Chriss5-2 ➜ /etc $ ls -a
+[?2004l.                       ca-certificates       dpkg          gshadow      ld.so.conf.d   magic.mime      os-release  rc4.d        ssh                ucf.conf
+..                      ca-certificates.conf  e2scrub.conf  gshadow-     legal          mailcap         pam.conf    rc5.d        ssl                ufw
+.pwd.lock               cloud                 emacs         gss          libaudit.conf  mailcap.order   pam.d       rc6.d        subgid             update-motd.d
+ODBCDataSources         credstore             environment   host.conf    libnl-3        manpath.config  passwd      rcS.d        subgid-            vconsole.conf
+PackageKit              credstore.encrypted   ethertypes    hostname     lighttpd       mime.types      passwd-     resolv.conf  subuid             vim
+X11                     cron.d                fish          hosts        locale.alias   mke2fs.conf     perl        rmt          subuid-            wgetrc
+adduser.conf            cron.daily            fonts         hosts.allow  locale.conf    modules-load.d  polkit-1    rpc          sudo.conf          xattr.conf
+alternatives            cron.weekly           fstab         hosts.deny   locale.gen     mtab            profile     rvmrc        sudo_logsrvd.conf  xdg
+apache2                 csh.login             gai.conf      init.d       localtime      mysql           profile.d   security     sudoers            xml
+apparmor.d              dbus-1                gdb           inputrc      logcheck       nanorc          protocols   selinux      sudoers.d          zsh
+apt                     debconf.conf          gitconfig     iproute2     login.defs     netconfig       python3     services     sysctl.conf
+bash.bashrc             debian_version        gnutls        issue        logrotate.d    networks        python3.12  sgml         sysctl.d
+bash_completion         debuginfod            gprofng.rc    issue.net    lsb-release    nsswitch.conf   rc0.d       shadow       systemd
+bash_completion.d       default               groff         kernel       lynx           odbc.ini        rc1.d       shadow-      terminfo
+bindresvport.blacklist  deluser.conf          group         ld.so.cache  machine-id     odbcinst.ini    rc2.d       shells       timezone
+binfmt.d                docker                group-        ld.so.conf   magic          opt             rc3.d       skel         tmpfiles.d
+[?2004h@Chriss5-2 ➜ /etc $ ls -acd /etc/; ls -a > ~/etc_lista.txtls -acd /tmp/
+[?2004l[?2004h@Chriss5-2 ➜ /tmp $ ls -al
+[?2004ltotal 40
+drwxr-xrwt+ 6 root      root       4096 Sep 22 22:29 .
+drwxr-xr-x  1 root      root       4096 Sep 22 22:19 ..
+drwxr-xrw-+ 3 codespace codespace  4096 Sep 22 22:20 BuildScriptGenerator
+drwxr-xrw-+ 2 codespace codespace  4096 Sep 22 22:24 codespaces_logs
+-rw-r--rw-  1 root      root      11590 Sep 22 22:19 dockerd.log
+-rw-r--rw-  1 root      root         57 Sep 22 22:19 sshd.log
+-rw-r--rw-  1 root      root          0 Sep 22 22:19 storage_version.txt
+drwxr-xrw-+ 2 codespace codespace  4096 Sep 22 22:20 system-commandline-sentinel-files
+srwxr-xr--  1 codespace codespace     0 Sep 22 22:20 vscode-git-25f690b1a7.sock
+srwxr-xr--  1 codespace codespace     0 Sep 22 22:25 vscode-git-b629912b4c.sock
+srwxr-xr--  1 codespace codespace     0 Sep 22 22:20 vscode-ipc-45215d3d-2126-47cd-98c5-0ecd53928a66.sock
+srwxr-xr--  1 codespace codespace     0 Sep 22 22:24 vscode-ipc-8d5023ee-179a-4558-8134-7540cf65cb65.sock
+srwxr-xr--  1 codespace codespace     0 Sep 22 22:20 vscode-ipc-cd4bd721-0814-4a6a-9f81-c0c35074c0c2.sock
+drwxr-xrw-+ 2 codespace codespace  4096 Sep 22 22:29 vscode-typescript1000
+[?2004h@Chriss5-2 ➜ /tmp $ cd ..
+[?2004l[?2004h@Chriss5-2 ➜ / $ cd workspaces/ccCC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli/
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ clear
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ cd /tmp/
+[?2004l[?2004h@Chriss5-2 ➜ /tmp $ ls -al
+[?2004ltotal 40
+drwxr-xrwt+ 6 root      root       4096 Sep 22 22:29 .
+drwxr-xr-x  1 root      root       4096 Sep 22 22:19 ..
+drwxr-xrw-+ 3 codespace codespace  4096 Sep 22 22:20 BuildScriptGenerator
+drwxr-xrw-+ 2 codespace codespace  4096 Sep 22 22:24 codespaces_logs
+-rw-r--rw-  1 root      root      11590 Sep 22 22:19 dockerd.log
+-rw-r--rw-  1 root      root         57 Sep 22 22:19 sshd.log
+-rw-r--rw-  1 root      root          0 Sep 22 22:19 storage_version.txt
+drwxr-xrw-+ 2 codespace codespace  4096 Sep 22 22:20 system-commandline-sentinel-files
+srwxr-xr--  1 codespace codespace     0 Sep 22 22:20 vscode-git-25f690b1a7.sock
+srwxr-xr--  1 codespace codespace     0 Sep 22 22:25 vscode-git-b629912b4c.sock
+srwxr-xr--  1 codespace codespace     0 Sep 22 22:20 vscode-ipc-45215d3d-2126-47cd-98c5-0ecd53928a66.sock
+srwxr-xr--  1 codespace codespace     0 Sep 22 22:24 vscode-ipc-8d5023ee-179a-4558-8134-7540cf65cb65.sock
+srwxr-xr--  1 codespace codespace     0 Sep 22 22:20 vscode-ipc-cd4bd721-0814-4a6a-9f81-c0c35074c0c2.sock
+drwxr-xrw-+ 2 codespace codespace  4096 Sep 22 22:29 vscode-typescript1000
+[?2004h@Chriss5-2 ➜ /tmp $ cd ../workspaces/CC3S2-A_25-2_20211374B/acActividad4-CC3S2/clab-cli/
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ clear
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ find /tmp -maxdepth 1 -type f \( -name '*.txt' -o -name '*.doc' \) | wc -lfind /tmp -maxdepth 1 -type f \( -name '*.txt' -o -name '*.doc' \) | wc -l
+[?2004l1
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ ls /tmp/
+[?2004lBuildScriptGenerator  sshd.log                           vscode-git-25f690b1a7.sock                            vscode-ipc-8d5023ee-179a-4558-8134-7540cf65cb65.sock
+codespaces_logs       storage_version.txt                vscode-git-b629912b4c.sock                            vscode-ipc-cd4bd721-0814-4a6a-9f81-c0c35074c0c2.sock
+dockerd.log           system-commandline-sentinel-files  vscode-ipc-45215d3d-2126-47cd-98c5-0ecd53928a66.sock  vscode-typescript1000
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ ls /tmp /p/ > tmp_lista
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ printf "Línea1\nLínea2\n" > test.txtprintf "Línea1\nLínea2\n" > test.txt
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ printf "Línea1\nLínea2\n" > test.txtls /tmp/ > tmp_listafind /tmp -maxdepth 1 -type f \( -name '*.txt' -o -name '*.doc' \) | wc -lcleard ../workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli/ls -alcd /tmp/leard workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli/..ls -alcd /tmp/ls -acd /etc/; ls -a > ~/etc_lista.txtgit push origin maincommit -m "Agregando avance de Actividad4"add -Astatusfind / --name 'etc' 2>/dev/null echo "archivo3.txt" | xargs rm2[13@1.txt archivotouch archivo1.txt archivo2.txt archivo3.txt
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ find . -maxdepth 1 -name 'archivo*.txt' | xargs echo rmfind . -maxdepth 1 -name 'archivo*.txt' | xargs echo rm
+[?2004lrm ./archivo2.txt ./archivo3.txt ./archivo1.txt
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ ls noexiste 2>> errores.logls noexiste 2>> errores.log
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ nl test.txt 
+[?2004l     1	Línea1
+     2	Línea2
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ wc -l list tmp_lista 
+[?2004l12 tmp_lista
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ wc -l tmp_lista nl test.txt>> README.md 
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ nl test.txt >> README.md wc -l tmp_listaest.txt >> README.md 
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ git addstatus
+[?2004lOn branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   README.md
+	modified:   evidencias/sesion.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	archivo1.txt
+	archivo2.txt
+	archivo3.txt
+	errores.log
+	test.txt
+	tmp_lista
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ git add - AA.
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ git status
+[?2004lOn branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   README.md
+	new file:   archivo1.txt
+	new file:   archivo2.txt
+	new file:   archivo3.txt
+	new file:   errores.log
+	modified:   evidencias/sesion.txt
+	new file:   test.txt
+	new file:   tmp_lista
+
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ git commit -m "AFinalizando Sección 1"
+[?2004l[main 4271ef3] Finalizando Sección 1
+ 8 files changed, 149 insertions(+), 1 deletion(-)
+ create mode 100644 Actividad4-CC3S2/lab-cli/archivo1.txt
+ create mode 100644 Actividad4-CC3S2/lab-cli/archivo2.txt
+ create mode 100644 Actividad4-CC3S2/lab-cli/archivo3.txt
+ create mode 100644 Actividad4-CC3S2/lab-cli/errores.log
+ create mode 100644 Actividad4-CC3S2/lab-cli/test.txt
+ create mode 100644 Actividad4-CC3S2/lab-cli/tmp_lista
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ git push origin main
+[?2004lEnumerating objects: 17, done.
+Counting objects:   5% (1/17)Counting objects:  11% (2/17)Counting objects:  17% (3/17)Counting objects:  23% (4/17)Counting objects:  29% (5/17)Counting objects:  35% (6/17)Counting objects:  41% (7/17)Counting objects:  47% (8/17)Counting objects:  52% (9/17)Counting objects:  58% (10/17)Counting objects:  64% (11/17)Counting objects:  70% (12/17)Counting objects:  76% (13/17)Counting objects:  82% (14/17)Counting objects:  88% (15/17)Counting objects:  94% (16/17)Counting objects: 100% (17/17)Counting objects: 100% (17/17), done.
+Delta compression using up to 2 threads
+Compressing objects:  14% (1/7)Compressing objects:  28% (2/7)Compressing objects:  42% (3/7)Compressing objects:  57% (4/7)Compressing objects:  71% (5/7)Compressing objects:  85% (6/7)Compressing objects: 100% (7/7)Compressing objects: 100% (7/7), done.
+Writing objects:   9% (1/11)Writing objects:  18% (2/11)Writing objects:  27% (3/11)Writing objects:  36% (4/11)Writing objects:  45% (5/11)Writing objects:  54% (6/11)Writing objects:  63% (7/11)Writing objects:  72% (8/11)Writing objects:  81% (9/11)Writing objects:  90% (10/11)Writing objects: 100% (11/11)Writing objects: 100% (11/11), 5.01 KiB | 2.50 MiB/s, done.
+Total 11 (delta 2), reused 1 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas:   0% (0/2)remote: Resolving deltas:  50% (1/2)remote: Resolving deltas: 100% (2/2)remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/Chriss5-2/CC3S2-A_25-2_20211374B
+   74bccae..4271ef3  main -> main
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ git status
+[?2004lOn branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   evidencias/sesion.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ git rm Curdir Curgit rm -r git add evidencias/
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ cd ../..
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B (main) $ git rm- -r Curso-CC3S2/
+[?2004lfatal: could not lookup name for submodule 'Curso-CC3S2'
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B (main) $ git submodule deinit -f Curso-CC3S2
+git submodule deinit -f Curso-CC3S2
+
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B (main) $ rm -rf .git/modules/Curso-CC3S2
+rm -rf .git/modules/Curso-CC3S2
+
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B (main) $ git rm -f Curso-CC3S2
+git rm -f Curso-CC3S2
+
+[?2004lfatal: could not lookup name for submodule 'Curso-CC3S2'
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B (main) $ nano .git/submols -al
+[?2004ltotal 32
+drwxrwxrwx+ 8 codespace root      4096 Sep 22 22:31 .
+drwxr-xrwx+ 5 codespace root      4096 Sep 22 22:20 ..
+drwxrwxrwx+ 8 codespace root      4096 Sep 22 23:37 .git
+drwxrwxrwx+ 4 codespace root      4096 Sep 22 22:20 Actividad3-CC3S2
+drwxrwxrwx+ 3 codespace codespace 4096 Sep 22 22:33 Actividad4-CC3S2
+drwxrwxrwx+ 5 codespace root      4096 Sep 22 22:20 Actividad7-CC3S2
+drwxrwxrwx+ 2 codespace root      4096 Sep 22 22:20 Actividad_1-CC3S2
+drwxrwxrwx+ 8 codespace codespace 4096 Sep 22 22:25 Curso-CC3S2
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B (main) $ ls .a-al .git/
+[?2004ltotal 260
+drwxrwxrwx+  8 codespace root        4096 Sep 22 23:37 .
+drwxrwxrwx+  8 codespace root        4096 Sep 22 22:31 ..
+-rw-rw-rw-   1 codespace codespace     23 Sep 22 23:35 COMMIT_EDITMSG
+-rw-rw-rw-   1 codespace root         111 Sep 22 22:20 FETCH_HEAD
+-rw-rw-rw-   1 codespace root          21 Sep 22 22:20 HEAD
+-rw-rw-rw-   1 codespace codespace    429 Sep 22 23:20 config
+-rw-rw-rw-   1 codespace root          73 Sep 22 22:19 description
+drwxrwxrwx+  2 codespace root        4096 Sep 22 22:20 hooks
+-rw-rw-rw-   1 codespace codespace 206679 Sep 22 23:36 index
+drwxrwxrwx+  2 codespace root        4096 Sep 22 22:19 info
+drwxr-xr-x+  4 codespace codespace   4096 Sep 22 23:20 lfs
+drwxrwxrwx+  3 codespace root        4096 Sep 22 22:20 logs
+drwxrwxrwx+ 22 codespace root        4096 Sep 22 23:36 objects
+-rw-rw-rw-   1 codespace root         112 Sep 22 22:20 packed-refs
+drwxrwxrwx+  5 codespace root        4096 Sep 22 22:20 refs
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B (main) $ git status
+[?2004lOn branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   Actividad4-CC3S2/lab-cli/evidencias/sesion.txt
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   Actividad4-CC3S2/lab-cli/evidencias/sesion.txt
+	deleted:    Curso-CC3S2
+
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B (main) $ git touch .gitiggitignore
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B (main) $ em -rm -r gitignore 
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B (main) $ cleargit status
+[?2004lOn branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   Actividad4-CC3S2/lab-cli/evidencias/sesion.txt
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   Actividad4-CC3S2/lab-cli/evidencias/sesion.txt
+	deleted:    Curso-CC3S2
+
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B (main) $ git commit add -A
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B (main) $ git status
+[?2004lOn branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   Actividad4-CC3S2/lab-cli/evidencias/sesion.txt
+	deleted:    Curso-CC3S2
+
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B (main) $ git commit -m "Agregando archivos necesaris os para terminar ella sección 1"
+[?2004l[main 9826888] Agregando archivos necesarios para terminar la sección 1
+ 2 files changed, 94 insertions(+), 1 deletion(-)
+ delete mode 160000 Curso-CC3S2
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B (main) $ git status
+[?2004lOn branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   Actividad4-CC3S2/lab-cli/evidencias/sesion.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B (main) $ ggit add Actividad4-CC3S2/lab-cli/evidencias/sesion.txt 
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B (main) $ git stcommit -m "git status
+[?2004lOn branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   Actividad4-CC3S2/lab-cli/evidencias/sesion.txt
+
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B (main) $ clear
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B (main) $ git clone https://github.com/kapumota/Curso-CC3S2https://github.com/kapumota/Curso-CC3S2.git
+[?2004lCloning into 'Curso-CC3S2'...
+remote: Enumerating objects: 618, done.
+remote: Counting objects:   0% (1/238)remote: Counting objects:   1% (3/238)remote: Counting objects:   2% (5/238)remote: Counting objects:   3% (8/238)remote: Counting objects:   4% (10/238)remote: Counting objects:   5% (12/238)remote: Counting objects:   6% (15/238)remote: Counting objects:   7% (17/238)remote: Counting objects:   8% (20/238)remote: Counting objects:   9% (22/238)remote: Counting objects:  10% (24/238)remote: Counting objects:  11% (27/238)remote: Counting objects:  12% (29/238)remote: Counting objects:  13% (31/238)remote: Counting objects:  14% (34/238)remote: Counting objects:  15% (36/238)remote: Counting objects:  16% (39/238)remote: Counting objects:  17% (41/238)remote: Counting objects:  18% (43/238)remote: Counting objects:  19% (46/238)remote: Counting objects:  20% (48/238)remote: Counting objects:  21% (50/238)remote: Counting objects:  22% (53/238)remote: Counting objects:  23% (55/238)remote: Counting objects:  24% (58/238)remote: Counting objects:  25% (60/238)remote: Counting objects:  26% (62/238)remote: Counting objects:  27% (65/238)remote: Counting objects:  28% (67/238)remote: Counting objects:  29% (70/238)remote: Counting objects:  30% (72/238)remote: Counting objects:  31% (74/238)remote: Counting objects:  32% (77/238)remote: Counting objects:  33% (79/238)remote: Counting objects:  34% (81/238)remote: Counting objects:  35% (84/238)remote: Counting objects:  36% (86/238)remote: Counting objects:  37% (89/238)remote: Counting objects:  38% (91/238)remote: Counting objects:  39% (93/238)remote: Counting objects:  40% (96/238)remote: Counting objects:  41% (98/238)remote: Counting objects:  42% (100/238)remote: Counting objects:  43% (103/238)remote: Counting objects:  44% (105/238)remote: Counting objects:  45% (108/238)remote: Counting objects:  46% (110/238)remote: Counting objects:  47% (112/238)remote: Counting objects:  48% (115/238)remote: Counting objects:  49% (117/238)remote: Counting objects:  50% (119/238)remote: Counting objects:  51% (122/238)remote: Counting objects:  52% (124/238)remote: Counting objects:  53% (127/238)remote: Counting objects:  54% (129/238)remote: Counting objects:  55% (131/238)remote: Counting objects:  56% (134/238)remote: Counting objects:  57% (136/238)remote: Counting objects:  58% (139/238)remote: Counting objects:  59% (141/238)remote: Counting objects:  60% (143/238)remote: Counting objects:  61% (146/238)remote: Counting objects:  62% (148/238)remote: Counting objects:  63% (150/238)remote: Counting objects:  64% (153/238)remote: Counting objects:  65% (155/238)remote: Counting objects:  66% (158/238)remote: Counting objects:  67% (160/238)remote: Counting objects:  68% (162/238)remote: Counting objects:  69% (165/238)remote: Counting objects:  70% (167/238)remote: Counting objects:  71% (169/238)remote: Counting objects:  72% (172/238)remote: Counting objects:  73% (174/238)remote: Counting objects:  74% (177/238)remote: Counting objects:  75% (179/238)remote: Counting objects:  76% (181/238)remote: Counting objects:  77% (184/238)remote: Counting objects:  78% (186/238)remote: Counting objects:  79% (189/238)remote: Counting objects:  80% (191/238)remote: Counting objects:  81% (193/238)remote: Counting objects:  82% (196/238)remote: Counting objects:  83% (198/238)remote: Counting objects:  84% (200/238)remote: Counting objects:  85% (203/238)remote: Counting objects:  86% (205/238)remote: Counting objects:  87% (208/238)remote: Counting objects:  88% (210/238)remote: Counting objects:  89% (212/238)remote: Counting objects:  90% (215/238)remote: Counting objects:  91% (217/238)remote: Counting objects:  92% (219/238)remote: Counting objects:  93% (222/238)remote: Counting objects:  94% (224/238)remote: Counting objects:  95% (227/238)remote: Counting objects:  96% (229/238)remote: Counting objects:  97% (231/238)remote: Counting objects:  98% (234/238)remote: Counting objects:  99% (236/238)remote: Counting objects: 100% (238/238)remote: Counting objects: 100% (238/238), done.
+remote: Compressing objects:   0% (1/183)remote: Compressing objects:   1% (2/183)remote: Compressing objects:   2% (4/183)remote: Compressing objects:   3% (6/183)remote: Compressing objects:   4% (8/183)remote: Compressing objects:   5% (10/183)remote: Compressing objects:   6% (11/183)remote: Compressing objects:   7% (13/183)remote: Compressing objects:   8% (15/183)remote: Compressing objects:   9% (17/183)remote: Compressing objects:  10% (19/183)remote: Compressing objects:  11% (21/183)remote: Compressing objects:  12% (22/183)remote: Compressing objects:  13% (24/183)remote: Compressing objects:  14% (26/183)remote: Compressing objects:  15% (28/183)remote: Compressing objects:  16% (30/183)remote: Compressing objects:  17% (32/183)remote: Compressing objects:  18% (33/183)remote: Compressing objects:  19% (35/183)remote: Compressing objects:  20% (37/183)remote: Compressing objects:  21% (39/183)remote: Compressing objects:  22% (41/183)remote: Compressing objects:  23% (43/183)remote: Compressing objects:  24% (44/183)remote: Compressing objects:  25% (46/183)remote: Compressing objects:  26% (48/183)remote: Compressing objects:  27% (50/183)remote: Compressing objects:  28% (52/183)remote: Compressing objects:  29% (54/183)remote: Compressing objects:  30% (55/183)remote: Compressing objects:  31% (57/183)remote: Compressing objects:  32% (59/183)remote: Compressing objects:  33% (61/183)remote: Compressing objects:  34% (63/183)remote: Compressing objects:  35% (65/183)remote: Compressing objects:  36% (66/183)remote: Compressing objects:  37% (68/183)remote: Compressing objects:  38% (70/183)remote: Compressing objects:  39% (72/183)remote: Compressing objects:  40% (74/183)remote: Compressing objects:  41% (76/183)remote: Compressing objects:  42% (77/183)remote: Compressing objects:  43% (79/183)remote: Compressing objects:  44% (81/183)remote: Compressing objects:  45% (83/183)remote: Compressing objects:  46% (85/183)remote: Compressing objects:  47% (87/183)remote: Compressing objects:  48% (88/183)remote: Compressing objects:  49% (90/183)remote: Compressing objects:  50% (92/183)remote: Compressing objects:  51% (94/183)remote: Compressing objects:  52% (96/183)remote: Compressing objects:  53% (97/183)remote: Compressing objects:  54% (99/183)remote: Compressing objects:  55% (101/183)remote: Compressing objects:  56% (103/183)remote: Compressing objects:  57% (105/183)remote: Compressing objects:  58% (107/183)remote: Compressing objects:  59% (108/183)remote: Compressing objects:  60% (110/183)remote: Compressing objects:  61% (112/183)remote: Compressing objects:  62% (114/183)remote: Compressing objects:  63% (116/183)remote: Compressing objects:  64% (118/183)remote: Compressing objects:  65% (119/183)remote: Compressing objects:  66% (121/183)remote: Compressing objects:  67% (123/183)remote: Compressing objects:  68% (125/183)remote: Compressing objects:  69% (127/183)remote: Compressing objects:  70% (129/183)remote: Compressing objects:  71% (130/183)remote: Compressing objects:  72% (132/183)remote: Compressing objects:  73% (134/183)remote: Compressing objects:  74% (136/183)remote: Compressing objects:  75% (138/183)remote: Compressing objects:  76% (140/183)remote: Compressing objects:  77% (141/183)remote: Compressing objects:  78% (143/183)remote: Compressing objects:  79% (145/183)remote: Compressing objects:  80% (147/183)remote: Compressing objects:  81% (149/183)remote: Compressing objects:  82% (151/183)remote: Compressing objects:  83% (152/183)remote: Compressing objects:  84% (154/183)remote: Compressing objects:  85% (156/183)remote: Compressing objects:  86% (158/183)remote: Compressing objects:  87% (160/183)remote: Compressing objects:  88% (162/183)remote: Compressing objects:  89% (163/183)remote: Compressing objects:  90% (165/183)remote: Compressing objects:  91% (167/183)remote: Compressing objects:  92% (169/183)remote: Compressing objects:  93% (171/183)remote: Compressing objects:  94% (173/183)remote: Compressing objects:  95% (174/183)remote: Compressing objects:  96% (176/183)remote: Compressing objects:  97% (178/183)remote: Compressing objects:  98% (180/183)remote: Compressing objects:  99% (182/183)remote: Compressing objects: 100% (183/183)remote: Compressing objects: 100% (183/183), done.
+Receiving objects:   0% (1/618)Receiving objects:   1% (7/618)Receiving objects:   2% (13/618)Receiving objects:   3% (19/618)Receiving objects:   4% (25/618)Receiving objects:   5% (31/618)Receiving objects:   6% (38/618)Receiving objects:   7% (44/618)Receiving objects:   8% (50/618)Receiving objects:   9% (56/618)Receiving objects:  10% (62/618)Receiving objects:  11% (68/618)Receiving objects:  12% (75/618)Receiving objects:  13% (81/618)Receiving objects:  14% (87/618)Receiving objects:  15% (93/618)Receiving objects:  16% (99/618)Receiving objects:  17% (106/618)Receiving objects:  18% (112/618)Receiving objects:  19% (118/618)Receiving objects:  20% (124/618)Receiving objects:  21% (130/618)Receiving objects:  22% (136/618)Receiving objects:  23% (143/618)Receiving objects:  24% (149/618)Receiving objects:  25% (155/618)Receiving objects:  26% (161/618)Receiving objects:  27% (167/618)Receiving objects:  28% (174/618)Receiving objects:  29% (180/618)Receiving objects:  30% (186/618)Receiving objects:  31% (192/618)Receiving objects:  32% (198/618)Receiving objects:  33% (204/618)Receiving objects:  34% (211/618)Receiving objects:  35% (217/618)Receiving objects:  36% (223/618)Receiving objects:  37% (229/618)Receiving objects:  38% (235/618)Receiving objects:  39% (242/618)Receiving objects:  40% (248/618)Receiving objects:  41% (254/618)Receiving objects:  42% (260/618)Receiving objects:  43% (266/618)Receiving objects:  44% (272/618)Receiving objects:  45% (279/618)Receiving objects:  46% (285/618)Receiving objects:  47% (291/618)Receiving objects:  48% (297/618)Receiving objects:  49% (303/618)Receiving objects:  50% (309/618)Receiving objects:  51% (316/618)Receiving objects:  52% (322/618)Receiving objects:  53% (328/618)Receiving objects:  54% (334/618)Receiving objects:  55% (340/618)Receiving objects:  56% (347/618)Receiving objects:  57% (353/618)Receiving objects:  58% (359/618)Receiving objects:  59% (365/618)Receiving objects:  60% (371/618)Receiving objects:  61% (377/618)Receiving objects:  62% (384/618)Receiving objects:  63% (390/618)Receiving objects:  64% (396/618)Receiving objects:  65% (402/618)Receiving objects:  66% (408/618)Receiving objects:  67% (415/618)Receiving objects:  68% (421/618)Receiving objects:  69% (427/618)Receiving objects:  70% (433/618)Receiving objects:  71% (439/618)Receiving objects:  72% (445/618)Receiving objects:  73% (452/618)Receiving objects:  74% (458/618)Receiving objects:  75% (464/618)Receiving objects:  76% (470/618)remote: Total 618 (delta 150), reused 87 (delta 51), pack-reused 380 (from 2)
+Receiving objects:  77% (476/618)Receiving objects:  78% (483/618)Receiving objects:  79% (489/618)Receiving objects:  80% (495/618)Receiving objects:  81% (501/618)Receiving objects:  82% (507/618)Receiving objects:  83% (513/618)Receiving objects:  84% (520/618)Receiving objects:  85% (526/618)Receiving objects:  86% (532/618)Receiving objects:  87% (538/618)Receiving objects:  88% (544/618)Receiving objects:  89% (551/618)Receiving objects:  90% (557/618)Receiving objects:  91% (563/618)Receiving objects:  92% (569/618)Receiving objects:  93% (575/618)Receiving objects:  94% (581/618)Receiving objects:  95% (588/618)Receiving objects:  96% (594/618)Receiving objects:  97% (600/618)Receiving objects:  98% (606/618)Receiving objects:  99% (612/618)Receiving objects: 100% (618/618)Receiving objects: 100% (618/618), 378.00 KiB | 16.43 MiB/s, done.
+Resolving deltas:   0% (0/306)Resolving deltas:   1% (4/306)Resolving deltas:   2% (7/306)Resolving deltas:   3% (10/306)Resolving deltas:   4% (13/306)Resolving deltas:   5% (16/306)Resolving deltas:   6% (19/306)Resolving deltas:   7% (22/306)Resolving deltas:   8% (25/306)Resolving deltas:   9% (28/306)Resolving deltas:  10% (31/306)Resolving deltas:  11% (34/306)Resolving deltas:  12% (37/306)Resolving deltas:  13% (40/306)Resolving deltas:  14% (43/306)Resolving deltas:  15% (46/306)Resolving deltas:  16% (49/306)Resolving deltas:  17% (53/306)Resolving deltas:  18% (56/306)Resolving deltas:  19% (59/306)Resolving deltas:  20% (62/306)Resolving deltas:  21% (65/306)Resolving deltas:  22% (68/306)Resolving deltas:  23% (71/306)Resolving deltas:  24% (74/306)Resolving deltas:  25% (77/306)Resolving deltas:  26% (80/306)Resolving deltas:  27% (83/306)Resolving deltas:  28% (86/306)Resolving deltas:  29% (89/306)Resolving deltas:  30% (92/306)Resolving deltas:  31% (95/306)Resolving deltas:  32% (98/306)Resolving deltas:  33% (101/306)Resolving deltas:  34% (105/306)Resolving deltas:  35% (108/306)Resolving deltas:  36% (111/306)Resolving deltas:  37% (114/306)Resolving deltas:  38% (117/306)Resolving deltas:  39% (120/306)Resolving deltas:  40% (123/306)Resolving deltas:  41% (126/306)Resolving deltas:  42% (129/306)Resolving deltas:  43% (132/306)Resolving deltas:  44% (135/306)Resolving deltas:  45% (138/306)Resolving deltas:  46% (141/306)Resolving deltas:  47% (144/306)Resolving deltas:  48% (147/306)Resolving deltas:  49% (150/306)Resolving deltas:  50% (153/306)Resolving deltas:  51% (157/306)Resolving deltas:  52% (160/306)Resolving deltas:  53% (163/306)Resolving deltas:  54% (166/306)Resolving deltas:  55% (169/306)Resolving deltas:  56% (172/306)Resolving dScript started on 2025-09-23 00:59:13+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="169" LINES="11"]
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ exitcho "Hola"clearecho "Hola"xitexit
+[?2004lexit
+
+Script done on 2025-09-23 01:28:59+00:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2025-09-23 06:13:09+00:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="146" LINES="11"]
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ clear
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ whoami >> README.md 
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ id >> README.md 
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ sudo adduser nuevousersudo adduser nuevouser > README.md 
+[?2004lNew [REDACTED]: 
+Retype new [REDACTED]: 
+Sorry, [REDACTED]s do not match.
+passwd: Authentication [REDACTED] manipulation error
+passwd: [REDACTED] unchanged
+1234
+^Cerr: Caught a SIG%s.
+groupdel: group 'nuevouser' does not exist
+fatal: `groupdel nuevouser' returned error code 6. Exiting.
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ ckealear
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ clearsudo adduser nuevouser > README.md [1@>
+[?2004lNew [REDACTED]: 
+Retype new [REDACTED]: 
+passwd: [REDACTED] updated successfully
+mkdir mockuser
+ls
+chown
+^Cfatal: `/bin/chfn nuevouser' exited from signal 2. Exiting.
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ clear
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ clearsudo adduser nuevouser >> README.md 
+[?2004lfatal: The user `nuevouser' already exists.
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ sudo adduser nuevouser >> README.md [1@2
+[?2004lNew [REDACTED]: 
+Retype new [REDACTED]: 
+passwd: [REDACTED] updated successfully
+nuevouser2          cir  riz
+12 
+1
+1
+2 1
+criz
+
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ mkdir mockuser
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ clear
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ chown
+[?2004lchown: missing operand
+Try 'chown --help' for more information.
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ chowswhoami
+[?2004lcodespace
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ showncjhown codespace
+[?2004lchown: missing operand after ‘codespace’
+Try 'chown --help' for more information.
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ sudo addgroup nuevogrupo; sudo usermod -aG nuevogrupo nuevousersudo addgroup nuevogrupo; sudo usermod -aG nuevogrupo nuevouser  >> README.md 
+[?2004linfo: Selecting GID from range 1000 to 59999 ...
+info: Adding group `nuevogrupo' (GID 1004) ...
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ did
+[?2004luid=1000(codespace) gid=1000(codespace) groups=1000(codespace),103(docker),986(pipx),987(python),988(oryx),989(golang),990(sdkman),991(rvm),992(php),993(conda),994(nvs),995(nvm),996(hugo),1001(ssh)
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ touch archivo >> README.md 
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ clear
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ chmod 644 archivo >> README.md 
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ chown nuevouser:nuevogrupo archivochown nuevouser:nuevogrupo archivo[1@2
+[?2004lchown: changing ownership of 'archivo': Operation not permitted
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ chown nuevouser2:nuevogrupo archivo[1@c[1@o[1@d[1@e[1@s[1@p[1@a[1@c[1@e
+[?2004lchown: changing ownership of 'archivo': Operation not permitted
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ whoami
+[?2004lcodespace
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ whoamichown codespace:nuevogrupo archivo[1@nuevouser2mod 644 archivo >> README.md leartouch archivo >> README.md idsudo addgroup nuevogrupo; sudo usermod -aG nuevogrupo nuevouser >> README.md @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ chown codespace
+sudo addgroup nuevogrupo; sudo usermod -aG nuevogrupo nuevouser >> README.md 
+2 
+[?2004lfatal: The group `nuevogrupo' already exists.
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ sudo addgroup nuevogrupo; sudo usermod -aG nuevogrupo nuevouser2 2; sudo usermod -aG nuevogrupo nuevouser2@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ 
+
+[?2004linfo: Selecting GID from range 1000 to 59999 ...
+info: Adding group `nuevogrupo2' (GID 1005) ...
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ sudo addgroup nuevogrupo2; sudo usermod -aG nuevogrupo nuevouser2@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ ; sudo usermod -aG nuevogrupo nuevouser2 whoami
+chown codespace:nuevogrupo archivo[1@nuevouser2mod 644 archivo >> README.md own nuevouser2:nuevogrupo archivomod 644 archivo >> README.md own nuevouser2:nuevogrupo archivo2 archivo
+[?2004lchown: changing ownership of 'archivo': Operation not permitted
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ clear
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ ps aux >> README.md 
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ top
+[?2004l[?1h=[?25l(Btop - 06:25:34 up 22 min,  0 user,  load average: 0.15, 0.24, 0.42(B(B
+Tasks:(B  24 (Btotal,(B   2 (Brunning,(B  22 (Bsleeping,(B   0 (Bstopped,(B   0 (Bzombie(B(B
+%Cpu(s):(B  4.8 (Bus,(B  4.8 (Bsy,(B  0.0 (Bni,(B 90.5 (Bid,(B  0.0 (Bwa,(B  0.0 (Bhi,(B  0.0 (Bsi,(B  0.0 (Bst(B(B (B(B
+MiB Mem :(B   7944.7 (Btotal,(B    235.6 (Bfree,(B   1831.8 (Bused,(B   6253.6 (Bbuff/cache(B(B (B(B    (B(B
+MiB Swap:(B      0.0 (Btotal,(B      0.0 (Bfree,(B      0.0 (Bused.(B   6112.9 (Bavail Mem (B(B
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND                                                                    (B
+(B    614 codespa+  20   0   42.1g 382116  62976 S  27.3   4.7   0:29.43 node                                                                       (B
+(B      1 codespa+  20   0    1136    640    640 S   0.0   0.0   0:00.04 docker-init                                                                (B
+(B      7 codespa+  20   0    2800   1536   1536 S   0.0   0.0   0:00.19 sh                                                                         (B
+(B     35 root      20   0   12016   2836   1792 S   0.0   0.0   0:00.00 sshd                                                                       (B(Btop - 06:25:37 up 22 min,  0 user,  load average: 0.14, 0.24, 0.42(B(B
+Tasks:(B  21 (Btotal,(B   1 (Brunning,(B  20 (Bsleeping,(B   0 (Bstopped,(B   0 (Bzombie(B(B
+%Cpu(s):(B  6.8 (Bus,(B  6.5 (Bsy,(B  0.0 (Bni,(B 86.3 (Bid,(B  0.2 (Bwa,(B  0.0 (Bhi,(B  0.2 (Bsi,(B  0.0 (Bst(B(B (B(B
+MiB Mem :(B   7944.7 (Btotal,(B    228.7 (Bfree,(B   1838.5 (Bused,(B   6253.8 (Bbuff/cache(B(B (B(B    (B(B
+MiB Swap:(B      0.0 (Btotal,(B      0.0 (Bfree,(B      0.0 (Bused.(B   6106.2 (Bavail Mem (B(B
+
+
+(B    614 codespa+  20   0   42.1g 382116  62976 S   1.7   4.7   0:29.48 node                                                                       (B
+(B    592 codespa+  20   0   11.3g 128580  54912 S   0.7   1.6   0:06.25 node                                                                       (B
+(B   1044 codespa+  20   0 1140576  73600  48000 S   0.3   0.9   0:02.08 node                                                                       (B
+(B      1 codespa+  20   0    1136    640    640 S   0.0   0.0   0:00.04 docker-init                                                                (B[?1l>
+[?12l[?25h[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ kill -SIGTERM PIDkill -SIGTERM PID >> README.md 
+[?2004lbash: kill: PID: arguments must be process or job IDs
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ nc -lvp 144 &
+[?2004l[1] 12518
+bash: nc: command not found
+[1]+  Exit 127                nc -lvp 144
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ sudo apt update
+[?2004l0% [Working]            Get:1 http://archive.ubuntu.com/ubuntu noble InRelease [256 kB]
+0% [Connected to repo.anaconda.com (104.16.32.241)] [Waiting for headers] [1 InRelease 8260 B/256 kB 3%] [Connecting to security.ubuntu.com (185.                                                                                                                                                 Get:2 https://packages.microsoft.com/repos/microsoft-ubuntu-noble-prod noble InRelease [3600 B]
+0% [Connected to repo.anaconda.com (104.16.32.241)] [2 InRelease 3600 B/3600 B 100%] [1 InRelease 14.0 kB/256 kB 5%] [Connecting to security.ubun                                                                                                                                                 0% [Connected to repo.anaconda.com (104.16.32.241)] [1 InRelease 19.7 kB/256 kB 8%] [Connecting to security.ubuntu.com (185.125.190.36)]0% [Waiting for headers] [Waiting for headers] [Connecting to security.ubuntu.com (185.125.190.36)] [Connected to dl.yarnpkg.com (104.16.169.120)                                                                                                                                                 Get:3 http://archive.ubuntu.com/ubuntu noble-updates InRelease [126 kB]
+                                                                                                                                                 0% [Waiting for headers] [3 InRelease 0 B/126 kB 0%] [Waiting for headers] [Connected to dl.yarnpkg.com (104.16.169.120)]                                                                                                                         Get:4 https://repo.anaconda.com/pkgs/misc/debrepo/conda stable InRelease [3961 B]
+                                                                                                                         0% [4 InRelease 3961 B/3961 B 100%] [3 InRelease 121 kB/126 kB 96%] [Waiting for headers] [Waiting for headers]                                                                                                               0% [3 InRelease 126 kB/126 kB 100%] [Waiting for headers] [Waiting for headers]                                                                               0% [Waiting for headers] [Waiting for headers] [Waiting for headers]                                                                    Get:5 https://dl.yarnpkg.com/debian stable InRelease
+0% [Waiting for headers] [Waiting for headers] [5 InRelease 17.1 kB]                                                                    0% [Waiting for headers] [Waiting for headers]                                              Get:6 http://archive.ubuntu.com/ubuntu noble-backports InRelease [126 kB]
+0% [6 InRelease 6832 B/126 kB 5%] [Waiting for headers]                                                       0% [Waiting for headers]0% [Waiting for headers]                        Get:7 https://packages.microsoft.com/repos/microsoft-ubuntu-noble-prod noble/main amd64 Packages [53.7 kB]
+0% [7 Packages 15.3 kB/53.7 kB 28%] [Waiting for headers]                                                         0% [Waiting for headers]                        Get:8 http://security.ubuntu.com/ubuntu noble-security InRelease [126 kB]
+0% [8 InRelease 14.0 kB/126 kB 11%]0% [7 Packages store 0 B] [Waiting for headers] [8 InRelease 14.0 kB/126 kB 11%]                                                                                Get:9 https://packages.microsoft.com/repos/microsoft-ubuntu-noble-prod noble/main all Packages [643 B]
+0% [7 Packages store 0 B] [9 Packages 0 B/643 B 0%] [8 InRelease 14.0 kB/126 kB 11%]                                                                                    0% [9 Packages 0 B/643 B 0%] [8 InRelease 14.0 kB/126 kB 11%]                                                             0% [8 InRelease 14.0 kB/126 kB 11%]0% [8 InRelease 14.0 kB/126 kB 11%]0% [8 InRelease 16.8 kB/126 kB 13%]                                   Get:10 http://archive.ubuntu.com/ubuntu noble/multiverse amd64 Packages [331 kB]
+0% [10 Packages 15.5 kB/331 kB 5%] [8 InRelease 22.5 kB/126 kB 18%]                                                                   0% [8 InRelease 28.3 kB/126 kB 22%]0% [10 Packages store 0 B] [Waiting for headers] [8 InRelease 28.3 kB/126 kB 22%]                                                                                 Get:11 http://archive.ubuntu.com/ubuntu noble/main amd64 Packages [1808 kB]
+0% [10 Packages store 0 B] [11 Packages 0 B/1808 kB 0%] [8 InRelease 36.8 kB/126 kB 29%]                                                                                        0% [11 Packages 75.4 kB/1808 kB 4%] [8 InRelease 39.7 kB/126 kB 31%]0% [11 Packages 335 kB/1808 kB 19%] [8 InRelease 42.5 kB/126 kB 34%]                                                                    Get:12 http://archive.ubuntu.com/ubuntu noble/universe amd64 Packages [19.3 MB]
+0% [Waiting for headers] [12 Packages 113 kB/19.3 MB 1%] [8 InRelease 54.0 kB/126 kB 43%]0% [11 Packages store 0 B] [Waiting for headers] [12 Packages 234 kB/19.3 MB 1%] [8 InRelease 54.0 kB/126 kB 43%]                                                                                                                 Get:13 https://repo.anaconda.com/pkgs/misc/debrepo/conda stable/main amd64 Packages [4557 B]
+0% [11 Packages store 0 B] [13 Packages 4557 B/4557 B 100%] [12 Packages 445 kB/19.3 MB 2%] [8 InRelease 54.0 kB/126 kB 43%]                                                                                                                            0% [11 Packages store 0 B] [12 Packages 496 kB/19.3 MB 3%] [8 InRelease 56.8 kB/126 kB 45%]0% [11 Packages store 0 B] [12 Packages 2888 kB/19.3 MB 15%] [8 InRelease 76.8 kB/126 kB 61%]                                                                                             0% [11 Packages store 0 B] [12 Packages 7378 kB/19.3 MB 38%]                                                            0% [12 Packages 11.1 MB/19.3 MB 58%]0% [13 Packages store 0 B] [12 Packages 11.1 MB/19.3 MB 58%]                                                            0% [12 Packages 11.1 MB/19.3 MB 58%]0% [12 Packages 15.2 MB/19.3 MB 79%]                                    Get:14 https://dl.yarnpkg.com/debian stable/main amd64 Packages [11.8 kB]
+0% [12 Packages 19.3 MB/19.3 MB 100%]0% [14 Packages store 0 B] [12 Packages 19.3 MB/19.3 MB 100%] [Waiting for headers]                                                                                   0% [12 Packages 19.3 MB/19.3 MB 100%] [Waiting for headers]                                                           Get:15 http://archive.ubuntu.com/ubuntu noble/restricted amd64 Packages [117 kB]
+                                                           0% [15 Packages 86.9 kB/117 kB 74%] [Waiting for headers]0% [12 Packages store 0 B] [Waiting for headers] [Waiting for headers]                                                                      Get:16 https://dl.yarnpkg.com/debian stable/main all Packages [11.8 kB]
+                                                                      0% [12 Packages store 0 B] [Waiting for headers]                                                Get:17 http://archive.ubuntu.com/ubuntu noble-updates/universe amd64 Packages [1922 kB]
+0% [12 Packages store 0 B] [17 Packages 196 kB/1922 kB 10%]                                                           0% [12 Packages store 0 B] [Waiting for headers]                                                Get:18 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 Packages [1793 kB]
+0% [12 Packages store 0 B] [18 Packages 43.3 kB/1793 kB 2%]                                                           0% [12 Packages store 0 B]                          Get:19 http://archive.ubuntu.com/ubuntu noble-updates/restricted amd64 Packages [2414 kB]
+0% [12 Packages store 0 B] [19 Packages 0 B/2414 kB 0%]                                                       Get:20 http://archive.ubuntu.com/ubuntu noble-updates/multiverse amd64 Packages [38.9 kB]
+                                                       0% [12 Packages store 0 B]0% [12 Packages store 0 B]                          Get:21 http://archive.ubuntu.com/ubuntu noble-backports/main amd64 Packages [48.8 kB]
+0% [12 Packages store 0 B]                          Get:22 http://archive.ubuntu.com/ubuntu noble-backports/universe amd64 Packages [35.6 kB]
+0% [12 Packages store 0 B] [22 Packages 0 B/35.6 kB 0%]                                                       0% [12 Packages store 0 B]82% [12 Packages store 0 B]                           Get:23 http://security.ubuntu.com/ubuntu noble-security/main amd64 Packages [1439 kB]
+82% [12 Packages store 0 B] [23 Packages 2615 B/1439 kB 0%]                                                           86% [12 Packages store 0 B]                           Get:24 http://security.ubuntu.com/ubuntu noble-security/restricted amd64 Packages [2306 kB]
+86% [12 Packages store 0 B] [24 Packages 0 B/2306 kB 0%]                                                        87% [24 Packages 225 kB/2306 kB 10%]87% [15 Packages store 0 B] [24 Packages 225 kB/2306 kB 10%]                                                            87% [24 Packages 225 kB/2306 kB 10%]87% [16 Packages store 0 B] [24 Packages 225 kB/2306 kB 10%]                                                            88% [24 Packages 225 kB/2306 kB 10%]88% [17 Packages store 0 B] [24 Packages 225 kB/2306 kB 10%]                                                            89% [24 Packages 588 kB/2306 kB 26%]89% [18 Packages store 0 B] [24 Packages 588 kB/2306 kB 26%]                                                            91% [24 Packages 1134 kB/2306 kB 49%]91% [19 Packages store 0 B] [24 Packages 1134 kB/2306 kB 49%]                                                             93% [24 Packages 1808 kB/2306 kB 78%]93% [20 Packages store 0 B] [24 Packages 1808 kB/2306 kB 78%]                                                             93% [24 Packages 1808 kB/2306 kB 78%]93% [21 Packages store 0 B] [24 Packages 1808 kB/2306 kB 78%]                                                             94% [24 Packages 1808 kB/2306 kB 78%]94% [22 Packages store 0 B] [24 Packages 1808 kB/2306 kB 78%]                                                             94% [24 Packages 1808 kB/2306 kB 78%]94% [23 Packages store 0 B] [24 Packages 1808 kB/2306 kB 78%]                                                             95% [24 Packages 2025 kB/2306 kB 88%]                                     Get:25 http://security.ubuntu.com/ubuntu noble-security/multiverse amd64 Packages [34.6 kB]
+96% [25 Packages 18.2 kB/34.6 kB 53%]96% [24 Packages store 0 B] [25 Packages 32.5 kB/34.6 kB 94%]                                                             96% [24 Packages store 0 B]                           Get:26 http://security.ubuntu.com/ubuntu noble-security/universe amd64 Packages [1136 kB]
+96% [24 Packages store 0 B] [26 Packages 73.7 kB/1136 kB 6%]                                                            99% [24 Packages store 0 B]                           99% [Working]99% [25 Packages store 0 B]                           100% [Working]100% [26 Packages store 0 B]                            100% [Working]              Fetched 33.5 MB in 2s (17.5 MB/s)
+Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 5%Reading package lists... 5%Reading package lists... 59%Reading package lists... 59%Reading package lists... 59%Reading package lists... 59%Reading package lists... 60%Reading package lists... 60%Reading package lists... 66%Reading package lists... 66%Reading package lists... 73%Reading package lists... 73%Reading package lists... 78%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 87%Reading package lists... 87%Reading package lists... 91%Reading package lists... 91%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... Done
+Reading state information... 0% Reading state information... 0%Reading state information... Done
+72 packages can be upgraded. Run 'apt list --upgradable' to see them.
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ sudo apt install netcat -y
+sudo apt install netcat -y
+
+[?2004lReading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 5%Reading package lists... 5%Reading package lists... 59%Reading package lists... 59%Reading package lists... 59%Reading package lists... 59%Reading package lists... 60%Reading package lists... 60%Reading package lists... 66%Reading package lists... 66%Reading package lists... 73%Reading package lists... 73%Reading package lists... 73%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 87%Reading package lists... 87%Reading package lists... 91%Reading package lists... 91%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... Done
+Reading state information... 0% Reading state information... 0%Reading state information... Done
+Package netcat is a virtual package provided by:
+  netcat-traditional 1.10-48
+  netcat-openbsd 1.226-1ubuntu2
+You should explicitly select one to install.
+
+E: Package 'netcat' has no installation candidate
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ sudo apt install netcat-openbsd -y
+sudo apt install netcat-openbsd -y
+
+[?2004lReading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 5%Reading package lists... 5%Reading package lists... 59%Reading package lists... 59%Reading package lists... 59%Reading package lists... 59%Reading package lists... 60%Reading package lists... 60%Reading package lists... 66%Reading package lists... 66%Reading package lists... 73%Reading package lists... 73%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 91%Reading package lists... 91%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... Done
+Reading state information... 0% Reading state information... 0%Reading state information... Done
+The following NEW packages will be installed:
+  netcat-openbsd
+0 upgraded, 1 newly installed, 0 to remove and 72 not upgraded.
+Need to get 44.3 kB of archives.
+After this operation, 109 kB of additional disk space will be used.
+0% [Working]            Get:1 http://archive.ubuntu.com/ubuntu noble/main amd64 netcat-openbsd amd64 1.226-1ubuntu2 [44.3 kB]
+23% [1 netcat-openbsd 12.6 kB/44.3 kB 28%]                                          100% [Working]              Fetched 44.3 kB in 0s (550 kB/s)
+debconf: unable to initialize frontend: Dialog
+debconf: (Dialog frontend requires a screen at least 13 lines tall and 31 columns wide.)
+debconf: falling back to frontend: Readline
+
+78Selecting previously unselected package netcat-openbsd.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 58629 files and directories currently installed.)
+Preparing to unpack .../netcat-openbsd_1.226-1ubuntu2_amd64.deb ...
+7Progress: [  0%] [............................................................................................................................] 87Progress: [ 20%] [########################....................................................................................................] 8Unpacking netcat-openbsd (1.226-1ubuntu2) ...
+7Progress: [ 40%] [#################################################...........................................................................] 8Setting up netcat-openbsd (1.226-1ubuntu2) ...
+7Progress: [ 60%] [##########################################################################..................................................] 8update-alternatives: using /bin/nc.openbsd to provide /bin/nc (nc) in auto mode
+7Progress: [ 80%] [###################################################################################################.........................] 8Processing triggers for man-db (2.12.0-4build2) ...
+
+78[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ ncc  -lvnp 1444 &
+[?2004l[1] 14323
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ Listening on 0.0.0.0 1444
+^C[?2004l[?2004h[?2004l
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ systemctl status >> READMEid >> README.md system status ssh >> README.md 
+[?2004lbash: system: command not found
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ system status ssh >> README.md [1@c[1@t[1@l
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ service satustatus --status-all >> README.md 
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ jourcanalctl -f 
+[?2004lNo journal files were found.
+^C
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ journalctl -f -clear
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ sudo adduser devsec; sudo addgroup ops; sudo usermod -aG ops devsec; touch [REDACTED]o.txt; sudo chown devsec:ops [REDACTED]o.txt; sudo chmod 640 [REDACTED]o.txtsudo adduser devsec; sudo addgroup ops; sudo usermod -aG ops devsec; touch [REDACTED]o.txt; sudo chown devsec:ops [REDACTED]o.txt; sudo chmod 640 [REDACTED]o.txt >> README.md 
+[?2004linfo: Adding user `devsec' ...
+info: Selecting UID/GID from range 1000 to 59999 ...
+info: Adding new group `devsec' (1006) ...
+info: Adding new user `devsec' (1006) with group `devsec (1006)' ...
+info: Creating home directory `/home/devsec' ...
+info: Copying files from `/etc/skel' ...
+New [REDACTED]: 
+Retype new [REDACTED]: 
+passwd: [REDACTED] updated successfully
+Changing the user information for devsec
+Enter the new value, or press ENTER for the default
+	Full Name []: devsec
+	Room Number []: 1
+	Work Phone []: 1
+	Home Phone []: 1
+	Other []: 
+Is the information correct? [Y/n] Y
+info: Adding new user `devsec' to supplemental / extra groups `users' ...
+info: Adding user `devsec' to group `users' ...
+info: Selecting GID from range 1000 to 59999 ...
+info: Adding group `ops' (GID 1007) ...
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ ´s aups axux | grep bash
+[?2004lcodespa+    2158  0.0  0.1  16580 12800 pts/2    Ss   06:10   0:00 /bin/bash --init-file /vscode/bin/linux-x64/0f0d87fa9e96c856c5212fc86db137ac0d783365/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+codespa+    3618  0.0  0.1  16724 12928 pts/0    Ss   06:13   0:00 bash -i
+codespa+   17912  0.0  0.0   7080  2176 pts/0    S+   06:34   0:00 grep --color=auto bash
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ ps aux | grep bash >> README.md 
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ systemctl status systemd-logindsystemctl status systemd-logind>> >> REAsleep 100 &
+[?2004l[2] 19052
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ ps
+[?2004l    PID TTY          TIME CMD
+   3618 pts/0    00:00:00 bash
+  14323 pts/0    00:00:00 nc
+  19052 pts/0    00:00:00 sleep
+  19115 pts/0    00:00:00 ps
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ kill 1906252
+[?2004l[2]+  Terminated              sleep 100
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ clear
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ clearkill 19052pssleep 100 & >> README.md 
+[?2004l[2] 19518
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ ps >> README.md 
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ kill 19518 >> README.md 
+[?2004l[2]+  Terminated              sleep 100
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ clear
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ namei -l [REDACTED]o.txt >> README.md 
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ id devsec >> EREADME.md 
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ echo "Hola 1" >> README.md grep.trpep.txt ;
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ echo "HChau 1" >> grepep.txt 
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ echo "Hoalla 2" >> greep.txt 
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ grep Hola greep.txt 
+[?2004lHola 1
+Hola 2
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ grep Hola greep.txt  >> README.md 
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ grep Hola greep.txt >> README.md [1@C[1@h[1@a[1@u
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ clear
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ sed "d/s"s/Hola/hola" greep.txt >> README.md 
+[?2004lsed: -e expression #1, char 11: unterminated `s' command
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ sed "s/Hola/hola" greep.txt >> README.md [1@'[1@'
+[?2004lsed: -e expression #1, char 11: unterminated `s' command
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ sed 's/Hola/hola' greep.txt >> README.md [1@/
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ clear
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ awk {'{print $1}' >>gre greeggreep.txt >> README.md 
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ awl '{print $1 ",  "" $23}' greep.txt  >> README.md 
+[?2004lbash: awl: command not found
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ awl '{print $1 "," $3}' greep.txt >> README.md [1@k
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ awk '{print $1 "," $3}' greep.txt >> README.md [1@2
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ cat greep.txt 
+[?2004lHola 1
+Chau 1
+Hola 2
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ clear
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ cut c3 1 5 greep.txt 
+[?2004lcut: you must specify a list of bytes, characters, or fields
+Try 'cut --help' for more information.
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ cut c1 5 greep.txt [1@-[1@-
+[?2004lHola 
+Chau 
+Hola 
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ cut -c1-5 greep.txt [1@3 > >  R E ADME.md 
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ cat greep.txt >> README.md 
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ cat greep.txt 
+[?2004lHola 1
+Chau 1
+Hola 2
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ cat greep.txt >> README.md 
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ sort greep.txt >> README.md 
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ sort greep.txt >> README.md [1@-[1@r[1@ 
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ clear
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ uniq cgreep.txt >> README.md 
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ echo "Hola 1" >> greep.txtecho "Hola 1" >> greep.txt
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ cat greep.txt 
+[?2004lHola 1
+Chau 1
+Hola 2
+Hola 1
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ cat greep.txt  >>>> README.md 
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ cat greep.txt >> README.md echo "Hola 1" >> greep.txtuniq greep.txt >> README.md 
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ uniq greep.txt 
+[?2004lHola 1
+Chau 1
+Hola 2
+Hola 1
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ echo "Holauniq greep.txt >> README.md catecho "Hola 1" >> greep.txt
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ cat greep.txt 
+[?2004lHola 1
+Chau 1
+Hola 2
+Hola 1
+Hola 1
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ clear
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ clearat greep.txt echo "Hola 1" >> greep.txtuniq greep.txt >> README.md 
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ uniq -c greep.txt 
+[?2004l      1 Hola 1
+      1 Chau 1
+      1 Hola 2
+      2 Hola 1
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ uniq -c greep.txt >> README.md 
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ clear
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ cat greep.txt  | tr 'H' 'h' > >> README.md 
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ cat greep.txt | tee salida.txtcat greep.txt | tee salida.txt> >> README.md 
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ ls
+[?2004lREADME.md  archivo1.txt  archivo3.txt  evidencias  mockuser    [REDACTED]o.txt  tmp_lista
+archivo    archivo2.txt  errores.log   greep.txt   salida.txt  test.txt
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ find / --name salida --type f 2>/dev/null 
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ clear
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ ls <>>> README.md 
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ ls >> README.md clearfind / --name salida --type f 2>/dev/null [1@"[1@*[1@"
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ find / --name "salida*" --type f 2>/dev/null 
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ find / --name "salida" --type f 2>/dev/null [1@.[1@t[1@x[1@t
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ find / --name "salida.txt" --type f 2>/dev/null 
+[?2004lfind: unknown predicate `--name'
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ find / --name "salida.txt"
+[?2004lfind: ‘/run/docker’: Permission denied
+find: ‘/run/containerd’: Permission denied
+find: ‘/run/sudo’: Permission denied
+^C
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ find / -name "salida.txt"[1@- --type f 2>/dev/null 
+[?2004l/workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli/salida.txt
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ find / -name "salida.txt" -type f 2>/dev/null [1@g[1@r[1@e[1@e[1@p >> README.md 
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ find / -name "greep.txt" -type f 2>/dev/null >> README.md [1@s[1@a[1@l[1@i[1@d[1@a
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ printf "linea1: dato1\nlinea2: dato2\n" > datos.txtprintf "linea1: dato1\nlinea2: dato2\n" > datos.txt >> README.md 
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ printf "linea1: dato1\nlinea2: dato2\n" > datos.txt >> README.md @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ find / -name "salida.txt" -type f 2>/dev/null >> README.md 
+greepsalida.txt" -type f 2>/dev/null -type f 2>/dev/null [1@d[1@a[1@t[1@o[1@s
+[?2004l/workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli/datos.txt
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ clear
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ grep root /etc/passwdgrep root /etc/passwd
+[?2004lroot:x:0:0:root:/root:/bin/bash
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ grep root /etc/passwd >> README.md 
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ sed 's/dato1/[REDACTED]o/' datos.txt > nuevo.txtsed 's/dato1/[REDACTED]o/' datos.txt > nuevo.txt
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ clear
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ sed 's/dato1/[REDACTED]o/' datos.txt > nuevo.txtsed 's/dato1/[REDACTED]o/' datos.txt > nuevo.txt >> README.md 
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ cat nuevo.txt >> README.md 
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ cat nuevo.txt 
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ cat datos.txt 
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ printf "linea1: dato1\nlinea2: dato2\n" > datos.txtprintf "linea1: dato1\nlinea2: dato2\n" > datos.txt
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ printf "linea1: dato1\nlinea2: dato2\n" > datos.txtcat datos.txt nuevo>> README.md [31@sed 's/dato1/[REDACTED]o/' datos.txt >
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ awk -F: '{print $1}' /etc/passwd | sort | uniqawk -F: '{print $1}' /etc/passwd | sort | uniq
+[?2004l_apt
+backup
+bin
+codespace
+daemon
+devsec
+games
+irc
+list
+lp
+mail
+man
+messagebus
+news
+nobody
+nuevouser
+nuevouser2
+polkitd
+proxy
+root
+sshd
+sync
+sys
+systemd-network
+uucp
+www-data
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ awk -F: '{print $1}' /etc/passwd | sort | uniqawk -F: '{print $1}' /etc/passwd | sort | uniq >> README.md 
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ printf "hola\n" | tr 'a-z' 'A-Z' | tee mayus.txtprintf "hola\n" | tr 'a-z' 'A-Z' | tee mayus.txt >> README.md 
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ find /tmp -mtime -5 -type ffind /tmp -mtime -5 -type f
+[?2004l/tmp/dockerd.log
+/tmp/storage_version.txt
+/tmp/codespaces_logs/20250923_061042_17586078423710_VSCode.log
+/tmp/sshd.log
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ clear
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ clearfind /tmp -mtime -5 -type f >> README.md 
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ ls /etc | grep conf | sort | tee lista_conf.txt | wc -lls /etc | grep conf | sort | tee lista_conf.txt | wc -l
+[?2004l24
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ ls /etc | grep conf | sort | tee lista_conf.txt | wc -l >> README.md 
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ grep -Ei 'error|fail' evidencias/sesion.txt | tee evidencias/hallazgos.txt@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ grep -Ei 'error|fail' evidencias/sesion.txt | tee evidencias/hallazgos.txt >> README.md 
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ file lista_conf.txt && head lista_conf.txtfile lista_conf.txt && head lista_conf.txt
+[?2004llista_conf.txt: ASCII text
+adduser.conf
+ca-certificates.conf
+debconf.conf
+deluser.conf
+e2scrub.conf
+gai.conf
+gitconfig
+host.conf
+ld.so.conf
+ld.so.conf.d
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ file lista_conf.txt && head lista_conf.txt >> README.md 
+[?2004llista_conf.txt: ASCII text
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ cat mayus.txtcat mayus.txt >> README.md 
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli (main) $ cd ..
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2 (main) $ git cd ..
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B (main) $ git rm Curso-CC3S2/
+[?2004lfatal: pathspec 'Curso-CC3S2/' did not match any files
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B (main) $ cd Curso-CC3S2/
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Curso-CC3S2 (main) $ rm -r .git/
+[?2004lrm: remove write-protected regular file '.git/objects/pack/pack-075409d7781c214fa66a2fb0c9fbf824dec4abd6.rev'? yes
+rm: remove write-protected regular file '.git/objects/pack/pack-075409d7781c214fa66a2fb0c9fbf824dec4abd6.pack'? yes
+rm: remove write-protected regular file '.git/objects/pack/pack-075409d7781c214fa66a2fb0c9fbf824dec4abd6.idx'? yes
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Curso-CC3S2 (main) $ clearclear
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Curso-CC3S2 (main) $ cd ..
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B (main) $ git rm -r Curso-CC3S2/
+[?2004lfatal: pathspec 'Curso-CC3S2/' did not match any files
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B (main) $ git rm -r Curso-CC3S2/ Curso-CC3S2/ Curso-CC3S2/Curso-CC3S2/
+[?2004lfatal: pathspec 'Curso-CC3S2/' did not match any files
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B (main) $ git status
+[?2004lOn branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   Actividad4-CC3S2/lab-cli/evidencias/sesion.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   Actividad4-CC3S2/lab-cli/README.md
+	modified:   Actividad4-CC3S2/lab-cli/evidencias/sesion.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	Actividad4-CC3S2/lab-cli/archivo
+	Actividad4-CC3S2/lab-cli/datos.txt
+	Actividad4-CC3S2/lab-cli/evidencias/hallazgos.txt
+	Actividad4-CC3S2/lab-cli/greep.txt
+	Actividad4-CC3S2/lab-cli/lista_conf.txt
+	Actividad4-CC3S2/lab-cli/mayus.txt
+	Actividad4-CC3S2/lab-cli/nuevo.txt
+	Actividad4-CC3S2/lab-cli/salida.txt
+	Actividad4-CC3S2/lab-cli/[REDACTED]o.txt
+
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B (main) $ clear
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B (main) $ git add -A
+[?2004lerror: open("Actividad4-CC3S2/lab-cli/[REDACTED]o.txt"): Permission denied
+error: unable to index file 'Actividad4-CC3S2/lab-cli/[REDACTED]o.txt'
+fatal: adding files failed
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B (main) $ git status
+[?2004lOn branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   Actividad4-CC3S2/lab-cli/evidencias/sesion.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   Actividad4-CC3S2/lab-cli/README.md
+	modified:   Actividad4-CC3S2/lab-cli/evidencias/sesion.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	Actividad4-CC3S2/lab-cli/archivo
+	Actividad4-CC3S2/lab-cli/datos.txt
+	Actividad4-CC3S2/lab-cli/evidencias/hallazgos.txt
+	Actividad4-CC3S2/lab-cli/greep.txt
+	Actividad4-CC3S2/lab-cli/lista_conf.txt
+	Actividad4-CC3S2/lab-cli/mayus.txt
+	Actividad4-CC3S2/lab-cli/nuevo.txt
+	Actividad4-CC3S2/lab-cli/salida.txt
+	Actividad4-CC3S2/lab-cli/[REDACTED]o.txt
+
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B (main) $ git add -A
+[?2004lerror: open("Actividad4-CC3S2/lab-cli/[REDACTED]o.txt"): Permission denied
+error: unable to index file 'Actividad4-CC3S2/lab-cli/[REDACTED]o.txt'
+fatal: adding files failed
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B (main) $ sudo chmod 644 Actividad4-CC3S2/lab-cli/[REDACTED]o.txt 
+sudo chmod 644 Actividad4-CC3S2/lab-cli/[REDACTED]o.txt
+
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B (main) $ sudo chmod 644 Actividad4-CC3S2/lab-cli/[REDACTED]o.txt@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B (main) $ git add -A
+
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B (main) $ git status
+[?2004lOn branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   Actividad4-CC3S2/lab-cli/README.md
+	new file:   Actividad4-CC3S2/lab-cli/archivo
+	new file:   Actividad4-CC3S2/lab-cli/datos.txt
+	new file:   Actividad4-CC3S2/lab-cli/evidencias/hallazgos.txt
+	modified:   Actividad4-CC3S2/lab-cli/evidencias/sesion.txt
+	new file:   Actividad4-CC3S2/lab-cli/greep.txt
+	new file:   Actividad4-CC3S2/lab-cli/lista_conf.txt
+	new file:   Actividad4-CC3S2/lab-cli/mayus.txt
+	new file:   Actividad4-CC3S2/lab-cli/nuevo.txt
+	new file:   Actividad4-CC3S2/lab-cli/salida.txt
+	new file:   Actividad4-CC3S2/lab-cli/[REDACTED]o.txt
+
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B (main) $ git commit -m "Finalizando Actividad 4"
+[?2004lg[main 1157cef] Finalizando Actividad 4
+ 11 files changed, 1001 insertions(+), 10 deletions(-)
+ create mode 100644 Actividad4-CC3S2/lab-cli/archivo
+ create mode 100644 Actividad4-CC3S2/lab-cli/datos.txt
+ create mode 100644 Actividad4-CC3S2/lab-cli/evidencias/hallazgos.txt
+ create mode 100644 Actividad4-CC3S2/lab-cli/greep.txt
+ create mode 100644 Actividad4-CC3S2/lab-cli/lista_conf.txt
+ create mode 100644 Actividad4-CC3S2/lab-cli/mayus.txt
+ create mode 100644 Actividad4-CC3S2/lab-cli/nuevo.txt
+ create mode 100644 Actividad4-CC3S2/lab-cli/salida.txt
+ create mode 100644 Actividad4-CC3S2/lab-cli/[REDACTED]o.txt
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B (main) $ git push origin main
+[?2004lEnumerating objects: 24, done.
+Counting objects:   4% (1/24)Counting objects:   8% (2/24)Counting objects:  12% (3/24)Counting objects:  16% (4/24)Counting objects:  20% (5/24)Counting objects:  25% (6/24)Counting objects:  29% (7/24)Counting objects:  33% (8/24)Counting objects:  37% (9/24)Counting objects:  41% (10/24)Counting objects:  45% (11/24)Counting objects:  50% (12/24)Counting objects:  54% (13/24)Counting objects:  58% (14/24)Counting objects:  62% (15/24)Counting objects:  66% (16/24)Counting objects:  70% (17/24)Counting objects:  75% (18/24)Counting objects:  79% (19/24)Counting objects:  83% (20/24)Counting objects:  87% (21/24)Counting objects:  91% (22/24)Counting objects:  95% (23/24)Counting objects: 100% (24/24)Counting objects: 100% (24/24), done.
+Delta compression using up to 2 threads
+Compressing objects:   8% (1/12)Compressing objects:  16% (2/12)Compressing objects:  25% (3/12)Compressing objects:  33% (4/12)Compressing objects:  41% (5/12)Compressing objects:  50% (6/12)Compressing objects:  58% (7/12)Compressing objects:  66% (8/12)Compressing objects:  75% (9/12)Compressing objects:  83% (10/12)Compressing objects:  91% (11/12)Compressing objects: 100% (12/12)Compressing objects: 100% (12/12), done.
+Writing objects:   5% (1/18)Writing objects:  11% (2/18)Writing objects:  16% (3/18)Writing objects:  22% (4/18)Writing objects:  27% (5/18)Writing objects:  33% (6/18)Writing objects:  38% (7/18)Writing objects:  44% (8/18)Writing objects:  50% (9/18)Writing objects:  55% (10/18)Writing objects:  61% (11/18)Writing objects:  66% (12/18)Writing objects:  72% (13/18)Writing objects:  77% (14/18)Writing objects:  83% (15/18)Writing objects:  88% (16/18)Writing objects:  94% (17/18)Writing objects: 100% (18/18)Writing objects: 100% (18/18), 22.85 KiB | 5.71 MiB/s, done.
+Total 18 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas:   0% (0/4)remote: Resolving deltas:  25% (1/4)remote: Resolving deltas:  50% (2/4)remote: Resolving deltas:  75% (3/4)remote: Resolving deltas: 100% (4/4)remote: Resolving deltas: 100% (4/4), completed with 2 local objects.
+To https://github.com/Chriss5-2/CC3S2-A_25-2_20211374B
+   4271ef3..1157cef  main -> main
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B (main) $ git status
+[?2004lOn branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   Actividad4-CC3S2/lab-cli/evidencias/sesion.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B (main) $ git add Actividad4-CC3S2/EXITexit
+[?2004lexit
+
+Script done on 2025-09-23 07:19:57+00:00 [COMMAND_EXIT_CODE="0"]

@@ -815,4 +815,62 @@ Untracked files:
 error: unable to index file 'Actividad4-CC3S2/lab-cli/secreto.txt'
 fatal: adding files failed
 [?2004h[0;32m@Chriss5-2 [1;31m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B [0;36m([1;31mmain[0;36m) [0m$ [7msudo chmod 644 Actividad4-CC3S2/lab-cli/secreto.tx[27m[7mt[27m[7m [27m
-[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo chmod 644 Actividad4-CC3S2/lab-cli/secreto.txt
+[A
+[?2004l[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B [0;36m([1;31mmain[0;36m) [0m$ sudo chmod 644 Actividad4-CC3S2/lab-cli/secreto.txt[A[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B [0;36m([1;31mmain[0;36m) [0m$ git add -A[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B [0;36m([1;31mmain[0;36m) [0m$ git status
+[?2004lOn branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mmodified:   Actividad4-CC3S2/lab-cli/README.md[m
+	[32mnew file:   Actividad4-CC3S2/lab-cli/archivo[m
+	[32mnew file:   Actividad4-CC3S2/lab-cli/datos.txt[m
+	[32mnew file:   Actividad4-CC3S2/lab-cli/evidencias/hallazgos.txt[m
+	[32mmodified:   Actividad4-CC3S2/lab-cli/evidencias/sesion.txt[m
+	[32mnew file:   Actividad4-CC3S2/lab-cli/greep.txt[m
+	[32mnew file:   Actividad4-CC3S2/lab-cli/lista_conf.txt[m
+	[32mnew file:   Actividad4-CC3S2/lab-cli/mayus.txt[m
+	[32mnew file:   Actividad4-CC3S2/lab-cli/nuevo.txt[m
+	[32mnew file:   Actividad4-CC3S2/lab-cli/salida.txt[m
+	[32mnew file:   Actividad4-CC3S2/lab-cli/secreto.txt[m
+
+[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B [0;36m([1;31mmain[0;36m) [0m$ git commit -m "Finalizando Actividad 4"
+[?2004lg[main 1157cef] Finalizando Actividad 4
+ 11 files changed, 1001 insertions(+), 10 deletions(-)
+ create mode 100644 Actividad4-CC3S2/lab-cli/archivo
+ create mode 100644 Actividad4-CC3S2/lab-cli/datos.txt
+ create mode 100644 Actividad4-CC3S2/lab-cli/evidencias/hallazgos.txt
+ create mode 100644 Actividad4-CC3S2/lab-cli/greep.txt
+ create mode 100644 Actividad4-CC3S2/lab-cli/lista_conf.txt
+ create mode 100644 Actividad4-CC3S2/lab-cli/mayus.txt
+ create mode 100644 Actividad4-CC3S2/lab-cli/nuevo.txt
+ create mode 100644 Actividad4-CC3S2/lab-cli/salida.txt
+ create mode 100644 Actividad4-CC3S2/lab-cli/secreto.txt
+[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B [0;36m([1;31mmain[0;36m) [0m$ git push origin main
+[?2004lEnumerating objects: 24, done.
+Counting objects:   4% (1/24)Counting objects:   8% (2/24)Counting objects:  12% (3/24)Counting objects:  16% (4/24)Counting objects:  20% (5/24)Counting objects:  25% (6/24)Counting objects:  29% (7/24)Counting objects:  33% (8/24)Counting objects:  37% (9/24)Counting objects:  41% (10/24)Counting objects:  45% (11/24)Counting objects:  50% (12/24)Counting objects:  54% (13/24)Counting objects:  58% (14/24)Counting objects:  62% (15/24)Counting objects:  66% (16/24)Counting objects:  70% (17/24)Counting objects:  75% (18/24)Counting objects:  79% (19/24)Counting objects:  83% (20/24)Counting objects:  87% (21/24)Counting objects:  91% (22/24)Counting objects:  95% (23/24)Counting objects: 100% (24/24)Counting objects: 100% (24/24), done.
+Delta compression using up to 2 threads
+Compressing objects:   8% (1/12)Compressing objects:  16% (2/12)Compressing objects:  25% (3/12)Compressing objects:  33% (4/12)Compressing objects:  41% (5/12)Compressing objects:  50% (6/12)Compressing objects:  58% (7/12)Compressing objects:  66% (8/12)Compressing objects:  75% (9/12)Compressing objects:  83% (10/12)Compressing objects:  91% (11/12)Compressing objects: 100% (12/12)Compressing objects: 100% (12/12), done.
+Writing objects:   5% (1/18)Writing objects:  11% (2/18)Writing objects:  16% (3/18)Writing objects:  22% (4/18)Writing objects:  27% (5/18)Writing objects:  33% (6/18)Writing objects:  38% (7/18)Writing objects:  44% (8/18)Writing objects:  50% (9/18)Writing objects:  55% (10/18)Writing objects:  61% (11/18)Writing objects:  66% (12/18)Writing objects:  72% (13/18)Writing objects:  77% (14/18)Writing objects:  83% (15/18)Writing objects:  88% (16/18)Writing objects:  94% (17/18)Writing objects: 100% (18/18)Writing objects: 100% (18/18), 22.85 KiB | 5.71 MiB/s, done.
+Total 18 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas:   0% (0/4)[Kremote: Resolving deltas:  25% (1/4)[Kremote: Resolving deltas:  50% (2/4)[Kremote: Resolving deltas:  75% (3/4)[Kremote: Resolving deltas: 100% (4/4)[Kremote: Resolving deltas: 100% (4/4), completed with 2 local objects.[K
+To https://github.com/Chriss5-2/CC3S2-A_25-2_20211374B
+   4271ef3..1157cef  main -> main
+[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B [0;36m([1;31mmain[0;36m) [0m$ git status
+[?2004lOn branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   Actividad4-CC3S2/lab-cli/evidencias/sesion.txt[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B [0;36m([1;31mmain[0;36m) [0m$ git add Actividad4-CC3S2/[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[KEXIT[K[K[K[Kexit
+[?2004lexit
+
+Script done on 2025-09-23 07:19:57+00:00 [COMMAND_EXIT_CODE="0"]
