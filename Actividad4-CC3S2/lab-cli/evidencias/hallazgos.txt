@@ -1,0 +1,7 @@
+[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad4-CC3S2/lab-cli [0;36m([1;31mmain[0;36m) [0m$ [7mls noexiste 2>> errores.log[27mls noexiste 2>> errores.log
+	[31merrores.log[m
+	[32mnew file:   errores.log[m
+ create mode 100644 Actividad4-CC3S2/lab-cli/errores.log
+passwd: Authentication token manipulation error
+fatal: `groupdel nuevouser' returned error code 6. Exiting.
+archivo    archivo2.txt  errores.log   greep.txt   salida.txt  test.txt
