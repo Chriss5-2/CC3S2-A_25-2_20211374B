@@ -1,0 +1,753 @@
+Script started on 2025-09-25 07:08:09+00:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="160" LINES="12"]
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2/lab-cli (main) $ clear
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2/lab-cli (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2/lab-cli (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2/lab-cli (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2/lab-cli (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2/lab-cli (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2/lab-cli (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2/lab-cli (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2/lab-cli (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2/lab-cli (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2/lab-cli (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2/lab-cli (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2/lab-cli (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2/lab-cli (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2/lab-cli (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2/lab-cli (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2/lab-cli (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2/lab-cli (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2/lab-cli (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2/lab-cli (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2/lab-cli (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2/lab-cli (main) $ cd ..
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ make help >> README.md 
+[?2004lmake: *** No rule to make target 'help'.  Stop.
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ cd Laboratorio2/
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2/Laboratorio2 (main) $ make make help >> ../README.md 
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2/Laboratorio2 (main) $ cd ..
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ clear
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ mkdir -p logs evidenciaScript started on 2025-09-25 17:29:25+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="158" LINES="12"]
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ clear
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ make
+[?2004l  all           Construir, testear y empaquetar todo
+  build         Generar out/hello.txt
+  test          Ejecutar tests
+  package       Crear dist/app.tar.gz
+  lint          Lint Bash y (opcional) Python
+  tools         Verificar dependencias
+  check         Ejecutar lint y tests
+  benchmark     Medir tiempo de ejecución
+  format        Formatear scripts con shfmt
+  dist-clean    Limpiar todo (incluye caches opcionales)
+  verify-repro  Verificar que dist/app.tar.gz sea 100% reproducible
+  clean         Limpiar archivos generados
+  help          Mostrar ayuda
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ rm -rf out distrm -rf out dist
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ make build | tee logs/build-run1.txtmake build | tee logs/build-run1.txt
+[?2004lmake: *** No rule to make target 'src/hello.py', needed by 'out/hello.txt'.  Stop.
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ clerar
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ clearmake build | tee logs/build-run1.txt
+[?2004lmkdir -p out
+python3 src/hello.py > out/hello.txt
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ make clearmake stop
+[?2004lmake: *** No rule to make target 'stop'.  Stop.
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ make clean
+[?2004lrm -rf out dist
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ lsodf clear
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ clearmake cleanstopbuild | tee logs/build-run1.txt >> README.md 
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ cat out/hello.txt | tee evidencia/out-hello-run1.txtcat out/hello.txt | tee evidencia/out-hello-run1.txt >> README.md 
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ make build | tee logs/build-run2.txtmake build | tee logs/build-run2.txt >> README.md 
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ stat -c '%y %n' out/hello.txt | tee -a logs/build-run2.txtstat -c '%y %n' out/hello.txt | tee -a logs/build-run2.txt >> README.md 
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ stat -c '%y %n' out/hello.txt | tee -a logs/build-run2.txt >> README.md make build | tee[16@cat out/hello.txt | tee evidencia/out-hello-run1make build | tee logs/buildclearmake cleanstopbuild | tee logs/build-run1.txt >> README.md 
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ make build | tee logs/build-run1.txt >> README.md [22@stat -c '%y %n' out/hello.txt | tee -a logs/build-run2make build | tee
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ make build | tee logs/build-run2.txt >> README.md 
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ make build | tee logs/build-run2.txt >> README.md 
+[?2004lmake: Nothing to be done for 'build'.
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ rm -rf out distrm -rf out dist
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ rm -rf out distmake build | tee logs/build-run2.txt >> README.md 1[22@stat -c '%y %n' out/hello.txt | tee -a logs/build-run2make build | tee[22@stat -c '%y %n' out/hello.txt | tee -a
+[?2004lstat: cannot statx 'out/hello.txt': No such file or directory
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ clear
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ rm -f out/hello.txtrm -f out/hello.txt
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ PYTHON=python4 make build ; echo "exit=$?" | tee logs/fallo-python4.txt || echo "falló (esperado)"@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ PYTHON=python4 make build ; echo "exit=$?" | tee logs/fallo-python4.txt || echo "falló (esperado)">> >> README.md 
+[?2004lmkdir -p out
+python4 src/hello.py > out/hello.txt
+bash: line 1: python4: command not found
+make: *** [Makefile:26: out/hello.txt] Error 127
+make: *** Deleting file 'out/hello.txt'
+exit=2
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ ls -l out/hello.txt | tee -a logs/fallo-python4.txt || echo "no existe (correcto)"@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ ls -l out/hello.txt | tee -a logs/fallo-python4.txt || echo "no existe (correcto)" >> README.md 
+[?2004lls: cannot access 'out/hello.txt': No such file or directory
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ ls -l out/hello.txt | tee -a logs/fallo-python4.txt || echo "no existe (correcto)"@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ ls -l out/hello.txt | tee -a logs/fallo-python4.txt || echo "no existe (correcto)"
+[?2004lls: cannot access 'out/hello.txt': No such file or directory
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ PYTHON
+[?2004lbash: PYTHON: command not found
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ PYTHONls -l out/hello.txt | tee -a logs/fallo-python4.txt || echo "no existe (correcto)" >> README.md @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ PYTHON=python4 make build ; echo "exit=$?" | tee logs/fallo-python4.txt || echo[16@ "falló (esperad
+[?2004lmkdir -p out
+python4 src/hello.py > out/hello.txt
+bash: line 1: python4: command not found
+make: *** [Makefile:26: out/hello.txt] Error 127
+make: *** Deleting file 'out/hello.txt'
+exit=2
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ PYTHO
+[?2004lbash: PYTHO: command not found
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ PYTHON
+[?2004lbash: PYTHON: command not found
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ PYTHONN=python4 make build ; echo "exit=$?" | tee logs/fallo-python4.txt || echo "falló (esperado)"3 make build ; echo "exit=$?" | tee logs/fallo-python4.txt || ech[1@o@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $  make build ; echo "exit=$?" | tee logs/fallo-python4.txt || echo@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $  make build ; echo "exit=$?" | tee logs/fallo-python4.txt || echo @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ 3 make build ; echo "exit=$?" | tee logs/fallo-python4.txt || echo[1@ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ 
+
+[?2004lmkdir -p out
+python3 src/hello.py > out/hello.txt
+exit=0
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ PYTHON=python3 make build ; echo "exit=$?" | tee logs/fallo-python4.txt || echo "falló (esperado)" >>> README.md 
+[?2004lmake: Nothing to be done for 'build'.
+exit=0
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ ls -l out/hello.txt | tee -a logs/fallo-python4.txt || echo "no existe (correcto)"@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ ls -l out/hello.txt | tee -a logs/fallo-python4.txt || echo "no existe (correcto)" >> README.md 
+[?2004l-rw-rw-rw- 1 codespace codespace 14 Sep 25 17:48 out/hello.txt
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ rm -rf out distrm -rf out dist
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ clear
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ make -n build | tee logs/dry-run-build.txtmake -n build | tee logs/dry-run-build.txt >> README.md 
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ make -d build |& tee logs/make-d.txtmake -d build |& tee logs/make-d.txt >> README.md 
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ grep -n "Considerando el archivo objetivo 'out/hello.txt'" logs/make-d.txtgrep -n "Considerando el archivo objetivo 'out/hello.txt'" logs/make-d.txt >>  README.md 
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ PYTHON=python4 make build ; echo "exit=$?" | tee logs/fallo-python4.txt || echo "falló (esperado)"@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ PYTHON=python4 make build ; echo "exit=$?" | tee logs/fallo-python4.txt || echo "falló (esperado)" make build ; echo "exit=$?" | tee logs/fallo-python4.txt || echo @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ 3 make build ; echo "exit=$?" | tee logs/fallo-python4.txt || echo[1@ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ 
+
+[?2004lmake: Nothing to be done for 'build'.
+exit=0
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ ls -l out/hello.txt | tee -a logs/fallo-python4.txt || echo "no existe (correcto)"@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ ls -l out/hello.txt | tee -a logs/fallo-python4.txt || echo "no existe (correcto)"
+[?2004l-rw-rw-rw- 1 codespace codespace 14 Sep 25 17:56 out/hello.txt
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ make -n build | tee logs/dry-run-build.txtmake -n build | tee logs/dry-run-build.txt
+[?2004lmake: Nothing to be done for 'build'.
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ clear
+[?2004l[?2004h@Chriss5-2 ➜ /wScript started on 2025-09-25 23:37:39+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="158" LINES="12"]
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2/lab-cli (main) $ clear
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2/lab-cli (main) $ cd ..
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ cp Makefile Makefile _bad
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ clear
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ make -f Makefile_bad build |& tee evidencia/missing-separator.txt || echo "error reproducido (correcto)"@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ make -f Makefile_bad build |& tee evidencia/missing-separator.txt || echo "error reproducido (correcto)" >> README.md 
+[?2004lmake: Nothing to be done for 'build'.
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ make clearn
+[?2004lrm -rf out dist
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ clear
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ clearmake clean-f Makefile_bad build |& tee evidencia/missing-separator.txt || echo "error reproducido (correcto)" >> README.md 
+[?2004lmkdir -p out
+python3 src/hello.py > out/hello.txt
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ make -f Makefile_bad build |& tee evidencia/missing-separator.txt || echo "error reproducido (correcto)" >> README.md @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ clear
+make clean
+[?2004lrm -rf out dist
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ clear
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ clearmake clean-f Makefile_bad build |& tee evidencia/missing-separator.txt || echo "error reproducido (correcto)" >> README.md 
+[?2004lMakefile_bad:25: *** missing separator.  Stop.
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ make -f Makefile_bad build |& tee evidencia/missing-separator.txt || echo "error reproducido (correcto)" >> README.md 
+[?2004lMakefile_bad:25: *** missing separator.  Stop.
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ make -f Makefile_bad build |& tee evidencia/missing-separator.txt || echo "error reproducido (correcto)" >> README.md [1@2
+[?2004lMakefile_bad:25: *** missing separator.  Stop.
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ make -f Makefile_bad build |& tee evidencia/missing-separator.txt || echo "error reproducido (correcto)" 2>> README.md 
+[?2004lMakefile_bad:25: *** missing separator.  Stop.
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ clear
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ clearmake -f Makefile_bad build |& tee evidencia/missing-separator.txt || echo "error reproducido (correcto)" >> README.md 2>%&!1
+[?2004lMakefile_bad:25: *** missing separator.  Stop.
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ make -f Makefile_bad build |& tee evidencia/missing-separator.txt || echo "error reproducido (correcto)" >> README.md 2>&1@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ clear
+make -f Makefile_bad build |& tee evidencia/missing-separator.txt || echo "error reproducido (correcto)" >> README.md @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ clear
+make -f Makefile_bad build |& tee evidencia/missing-separator.txt || echo "error reproducido (correcto)" >> README.md 2>&1@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ 
+clear
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ clearmake -f Makefile_bad build |& tee evidencia/missing-separator.txt || echo "error reproducido (correcto)" >> README.md 2>&1@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ clear
+make -f Makefile_bad build |& tee evidencia/missing-separator.txt || echo "error reproducido (correcto)" >> README.md [1@2[1@2
+[?2004lMakefile_bad:25: *** missing separator.  Stop.
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ touch scripts/run_tests.shtouch scripts/run_tests.sh
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ clear
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ chmod +x scripts/run_tests.shchmod +x scripts/run_tests.sh
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ lcclear
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ chmod +x scripts/run_tests.shchmod +x scripts/run_tests.sh
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ clear
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ cl./scripts/run_tests.sh >> README.md 
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ ./scripts/run_tests.sh >> README.md 
+[?2004lTest falló: salida inesperada
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ ./scripts/run_tests.sh >> README.md 
+[?2004lTest falló: salida inesperada
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ ./scripts/run_tests.sh >> README.md 
+[?2004lTest falló: salida inesperada
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ bash bash -x scripts/run_tests.shbash -x scripts/run_tests.sCLEAR
+[?2004lbash: CLEAR: command not found
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ clear
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ bash -x scripts/run_tests.shbash -x scripts/run_tests.sh
+[?2004l+ set -euo pipefail
++ IFS='
+	'
++ umask 027
++ set -o noclobber
++ PY=python3
++ SRC_DIR=src
+++ mktemp
++ tmp=/tmp/tmp.xF7C0Div6u
++ trap 'cleanup $?' EXIT INT TERM
++ echo 'Demostrando pipefail:'
+Demostrando pipefail:
++ set +o pipefail
++ false
++ true
++ echo 'Sin pipefail: el pipe se considera exitoso (status 0).'
+Sin pipefail: el pipe se considera exitoso (status 0).
++ set -o pipefail
++ true
++ false
++ echo 'Con pipefail: se detecta el fallo (status != 0).'
+Con pipefail: se detecta el fallo (status != 0).
++ cat
++ check_deps
++ deps=('python3' 'grep')
++ local -a deps
++ for dep in "${deps[@]}"
++ command -v python3
++ for dep in "${deps[@]}"
++ command -v grep
++ run_tests src/hello.py
++ local script=src/hello.py
++ local output
+++ python3 src/hello.py
++ output='Hello, Worlldd!'
++ echo 'Hello, Worlldd!'
++ grep -Fq 'Hello, World!'
++ echo 'Test falló: salida inesperada'
+Test falló: salida inesperada
++ mv -- src/hello.py src/hello.py.bak
++ exit 2
++ cleanup 2
++ rc=2
++ rm -f /tmp/tmp.xF7C0Div6u
++ '[' -f src/hello.py.bak ']'
++ mv -- src/hello.py.bak src/hello.py
++ exit 2
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ bash -x scripts/run_tests.sh
+[?2004l+ set -euo pipefail
++ IFS='
+	'
++ umask 027
++ set -o noclobber
++ PY=python3
++ SRC_DIR=src
+++ mktemp
++ tmp=/tmp/tmp.ghuHjEFhHt
++ trap 'cleanup $?' EXIT INT TERM
++ echo 'Demostrando pipefail:'
+Demostrando pipefail:
++ set +o pipefail
++ false
++ true
++ echo 'Sin pipefail: el pipe se considera exitoso (status 0).'
+Sin pipefail: el pipe se considera exitoso (status 0).
++ set -o pipefail
++ false
++ true
++ echo 'Con pipefail: se detecta el fallo (status != 0).'
+Con pipefail: se detecta el fallo (status != 0).
++ cat
++ check_deps
++ deps=('python3' 'grep')
++ local -a deps
++ for dep in "${deps[@]}"
++ command -v python3
++ for dep in "${deps[@]}"
++ command -v grep
++ run_tests src/hello.py
++ local script=src/hello.py
++ local output
+++ python3 src/hello.py
++ output='Hello, World!'
++ echo 'Hello, World!'
++ grep -Fq 'Hello, World!'
++ echo 'Test pasó: Hello, World!'
+Test pasó: Hello, World!
++ cleanup 0
++ rc=0
++ rm -f /tmp/tmp.ghuHjEFhHt
++ '[' -f src/hello.py.bak ']'
++ exit 0
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ clear
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ clearbash -x scripts/run_tests.sh >> README.md 
+[?2004l+ set -euo pipefail
++ IFS='
+	'
++ umask 027
++ set -o noclobber
++ PY=python3
++ SRC_DIR=src
+++ mktemp
++ tmp=/tmp/tmp.uRsjd1RURZ
++ trap 'cleanup $?' EXIT INT TERM
++ echo 'Demostrando pipefail:'
++ set +o pipefail
++ false
++ true
++ echo 'Sin pipefail: el pipe se considera exitoso (status 0).'
++ set -o pipefail
++ false
++ true
++ echo 'Con pipefail: se detecta el fallo (status != 0).'
++ cat
++ check_deps
++ deps=('python3' 'grep')
++ local -a deps
++ for dep in "${deps[@]}"
++ command -v python3
++ for dep in "${deps[@]}"
++ command -v grep
++ run_tests src/hello.py
++ local script=src/hello.py
++ local output
+++ python3 src/hello.py
++ output='Hello, Worlldd!'
++ echo 'Hello, Worlldd!'
++ grep -Fq 'Hello, World!'
++ echo 'Test falló: salida inesperada'
+Test falló: salida inesperada
++ mv -- src/hello.py src/hello.py.bak
++ exit 2
++ cleanup 2
++ rc=2
++ rm -f /tmp/tmp.uRsjd1RURZ
++ '[' -f src/hello.py.bak ']'
++ mv -- src/hello.py.bak src/hello.py
++ exit 2
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ bash -x scripts/run_tests.sh >> README.md 
+[?2004l+ set -euo pipefail
++ IFS='
+	'
++ umask 027
++ set -o noclobber
++ PY=python3
++ SRC_DIR=src
+++ mktemp
++ tmp=/tmp/tmp.RhHkPyWszI
++ trap 'cleanup $?' EXIT INT TERM
++ echo 'Demostrando pipefail:'
++ set +o pipefail
++ false
++ true
++ echo 'Sin pipefail: el pipe se considera exitoso (status 0).'
++ set -o pipefail
++ false
++ true
++ echo 'Con pipefail: se detecta el fallo (status != 0).'
++ cat
++ check_deps
++ deps=('python3' 'grep')
++ local -a deps
++ for dep in "${deps[@]}"
++ command -v python3
++ for dep in "${deps[@]}"
++ command -v grep
++ run_tests src/hello.py
++ local script=src/hello.py
++ local output
++ python3 src/hello.py
+scripts/run_tests.sh: line 46: output: unbound variable
+++ cleanup 1
+++ rc=1
+scripts/run_tests.sh: line 19: wait_for: No record of process 26264
++ grep -Fq 'Hello, World!'
++ echo 'Test falló: salida inesperada'
+Test falló: salida inesperada
++ mv -- src/hello.py src/hello.py.bak
++ exit 2
++ cleanup 2
++ rc=2
++ rm -f /tmp/tmp.RhHkPyWszI
++ '[' -f src/hello.py.bak ']'
++ mv -- src/hello.py.bak src/hello.py
++ exit 2
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ clear
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ exit
+[?2004lexit
+
+Script done on 2025-09-26 01:15:42+00:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2025-09-26 04:06:02+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="132" LINES="11"]
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2/lab-cli (main) $ clear 
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2/lab-cli (main) $ cd ..
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ clear
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ make -n all
+[?2004lcommand -v python3 >/dev/null || { echo "Falta python3"; exit 1; }
+command -v shellcheck >/dev/null || { echo "Falta shellcheck"; exit 1; }
+command -v shfmt >/dev/null || { echo "Falta shfmt"; exit 1; }
+command -v grep >/dev/null || { echo "Falta grep"; exit 1; }
+command -v awk >/dev/null || { echo "Falta awk"; exit 1; }
+command -v tar >/dev/null || { echo "Falta tar"; exit 1; }
+tar --version 2>/dev/null | grep -q 'GNU tar' || { echo "Se requiere GNU tar"; exit 1; }
+command -v sha256sum >/dev/null || { echo "Falta sha256sum"; exit 1; }
+shellcheck scripts/run_tests.sh
+shfmt -d scripts/run_tests.sh
+command -v ruff >/dev/null 2>&1 && ruff check src || echo "ruff no instalado; omitiendo lint Python"
+mkdir -p out
+python3 src/hello.py > out/hello.txt
+scripts/run_tests.sh
+python3 -m unittest discover -s tests -v
+mkdir -p dist
+tar --sort=name --owner=0 --group=0 --numeric-owner --mtime='UTC 1970-01-01' -czf dist/app.tar.gz -C out hello.txt
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ make -n all >> README.md 
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ clear
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ make -d uikdbuild >> README.md 
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ make tools >> README.md 
+[?2004lmake: *** [Makefile:45: tools] Error 1
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ sudo apt update
+sudo apt update
+
+[?2004l0% [Working]            Get:1 https://packages.microsoft.com/repos/microsoft-ubuntu-noble-prod noble InRelease [3600 B]
+0% [Connected to repo.anaconda.com (104.16.32.241)] [1 InRelease 3600 B/3600 B 100%] [Connecting to archive.ubuntu.com (185.125.1900% [Connected to repo.anaconda.com (104.16.32.241)] [Connecting to archive.ubuntu.com (185.125.190.39)] [Connecting to dl.yarnpkg.c                                                                                                                                   Get:2 https://dl.yarnpkg.com/debian stable InRelease
+                                                                                                                                   0% [Waiting for headers] [Waiting for headers] [2 InRelease 0 B]                                                                0% [Waiting for headers] [Waiting for headers]                                              Get:3 http://security.ubuntu.com/ubuntu noble-security InRelease [126 kB]
+0% [Waiting for headers] [Waiting for headers] [3 InRelease 14.0 kB/126 kB 11%]                                                                               Get:4 https://repo.anaconda.com/pkgs/misc/debrepo/conda stable InRelease [3961 B]
+                                                                               0% [Waiting for headers] [3 InRelease 14.0 kB/126 kB 11%]                                                         Get:5 http://archive.ubuntu.com/ubuntu noble InRelease [256 kB]
+0% [5 InRelease 14.0 kB/256 kB 5%] [3 InRelease 36.8 kB/126 kB 29%]0% [5 InRelease 14.0 kB/256 kB 5%] [3 InRelease 42.5 kB/126 kB 34%]                                                                   Get:6 https://packages.microsoft.com/repos/microsoft-ubuntu-noble-prod noble/main all Packages [643 B]
+0% [5 InRelease 14.0 kB/256 kB 5%] [3 InRelease 126 kB/126 kB 100%]                                                                   0% [5 InRelease 14.0 kB/256 kB 5%]0% [6 Packages store 0 B] [Waiting for headers] [5 InRelease 14.0 kB/256 kB 5%]                                                                               0% [Waiting for headers] [5 InRelease 14.0 kB/256 kB 5%]                                                        Get:7 https://packages.microsoft.com/repos/microsoft-ubuntu-noble-prod noble/main amd64 Packages [56.8 kB]
+0% [7 Packages 31.7 kB/56.8 kB 56%] [5 InRelease 14.0 kB/256 kB 5%]                                                                   0% [5 InRelease 14.0 kB/256 kB 5%]0% [7 Packages store 0 B] [5 InRelease 14.0 kB/256 kB 5%]                                                         0% [5 InRelease 14.0 kB/256 kB 5%]0% [5 InRelease 22.5 kB/256 kB 9%]                                  Get:8 https://dl.yarnpkg.com/debian stable/main amd64 Packages [11.8 kB]
+0% [5 InRelease 28.3 kB/256 kB 11%] [8 Packages 11.8 kB/11.8 kB 100%]                                                                     0% [5 InRelease 28.3 kB/256 kB 11%]0% [8 Packages store 0 B] [5 InRelease 28.3 kB/256 kB 11%] [Waiting for headers]                                                                                0% [5 InRelease 28.3 kB/256 kB 11%] [Waiting for headers]0% [5 InRelease 42.5 kB/256 kB 17%] [Waiting for headers]                                                         Get:9 https://dl.yarnpkg.com/debian stable/main all Packages [11.8 kB]
+0% [Waiting for headers] [5 InRelease 42.5 kB/256 kB 17%] [9 Packages 11.8 kB/11.8 kB 100%]                                                                                           0% [Waiting for headers] [5 InRelease 42.5 kB/256 kB 17%]0% [9 Packages store 0 B] [Waiting for headers] [5 InRelease 42.5 kB/256 kB 17%]                                                                                0% [Waiting for headers] [5 InRelease 42.5 kB/256 kB 17%]                                                         Get:10 https://repo.anaconda.com/pkgs/misc/debrepo/conda stable/main amd64 Packages [4557 B]
+0% [10 Packages 0 B/4557 B 0%] [5 InRelease 62.5 kB/256 kB 24%]                                                               0% [5 InRelease 62.5 kB/256 kB 24%]0% [5 InRelease 62.5 kB/256 kB 24%]0% [5 InRelease 68.2 kB/256 kB 27%]                                   Get:11 http://security.ubuntu.com/ubuntu noble-security/restricted amd64 Packages [2376 kB]
+0% [5 InRelease 76.8 kB/256 kB 30%] [11 Packages 15.5 kB/2376 kB 1%]                                                                    0% [5 InRelease 148 kB/256 kB 58%]0% [11 Packages store 0 B] [5 InRelease 151 kB/256 kB 59%] [Waiting for headers]                                                                                Get:12 http://security.ubuntu.com/ubuntu noble-security/universe amd64 Packages [1136 kB]
+0% [11 Packages store 0 B] [5 InRelease 171 kB/256 kB 67%] [12 Packages 0 B/1136 kB 0%]                                                                                       0% [11 Packages store 0 B] [5 InRelease 185 kB/256 kB 72%]                                                          Get:13 http://security.ubuntu.com/ubuntu noble-security/multiverse amd64 Packages [34.6 kB]
+0% [11 Packages store 0 B] [5 InRelease 188 kB/256 kB 74%] [13 Packages 0 B/34.6 kB 0%]                                                                                       Get:14 http://security.ubuntu.com/ubuntu noble-security/main amd64 Packages [1474 kB]
+0% [11 Packages store 0 B] [5 InRelease 188 kB/256 kB 74%] [14 Packages 196 kB/1474 kB 13%]                                                                                           0% [11 Packages store 0 B] [5 InRelease 202 kB/256 kB 79%]                                                          0% [11 Packages store 0 B] [Waiting for headers]                                                0% [Waiting for headers]0% [12 Packages store 0 B] [Waiting for headers]0% [12 Packages store 0 B] [Waiting for headers]                                                Get:15 http://archive.ubuntu.com/ubuntu noble-updates InRelease [126 kB]
+                                                0% [15 InRelease 26.8 kB/126 kB 21%]0% [15 InRelease 38.2 kB/126 kB 30%]0% [14 Packages store 0 B] [15 InRelease 41.1 kB/126 kB 33%]                                                            0% [14 Packages store 0 B]                          0% [Waiting for headers]0% [Waiting for headers]                        Get:16 http://archive.ubuntu.com/ubuntu noble-backports InRelease [126 kB]
+0% [16 InRelease 2548 B/126 kB 2%]                                  0% [Working]29% [Waiting for headers]                         Get:17 http://archive.ubuntu.com/ubuntu noble/universe amd64 Packages [19.3 MB]
+29% [17 Packages 2613 B/19.3 MB 0%]50% [17 Packages 8717 kB/19.3 MB 45%]                                     Get:18 http://archive.ubuntu.com/ubuntu noble/main amd64 Packages [1808 kB]
+                                     76% [18 Packages 201 kB/1808 kB 11%]76% [17 Packages store 0 B] [18 Packages 325 kB/1808 kB 18%]                                                            Get:19 http://archive.ubuntu.com/ubuntu noble/multiverse amd64 Packages [331 kB]
+                                                            80% [17 Packages store 0 B] [19 Packages 156 kB/331 kB 47%]                                                           80% [17 Packages store 0 B]                           Get:20 http://archive.ubuntu.com/ubuntu noble/restricted amd64 Packages [117 kB]
+80% [17 Packages store 0 B] [20 Packages 0 B/117 kB 0%]                                                       80% [17 Packages store 0 B]                           Get:21 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 Packages [1828 kB]
+80% [17 Packages store 0 B] [21 Packages 0 B/1828 kB 0%]                                                        85% [17 Packages store 0 B]                           Get:22 http://archive.ubuntu.com/ubuntu noble-updates/multiverse amd64 Packages [38.9 kB]
+85% [17 Packages store 0 B] [22 Packages 38.9 kB/38.9 kB 100%]                                                              85% [17 Packages store 0 B]                           Get:23 http://archive.ubuntu.com/ubuntu noble-updates/restricted amd64 Packages [2483 kB]
+85% [17 Packages store 0 B] [23 Packages 0 B/2483 kB 0%]                                                        91% [17 Packages store 0 B]                           Get:24 http://archive.ubuntu.com/ubuntu noble-updates/universe amd64 Packages [1923 kB]
+91% [17 Packages store 0 B] [24 Packages 75.4 kB/1923 kB 4%]95% [17 Packages store 0 B] [Connecting to archive.ubuntu.com (185.125.190.39)]                                                                               Get:25 http://archive.ubuntu.com/ubuntu noble-backports/main amd64 Packages [48.8 kB]
+                                                                               95% [17 Packages store 0 B] [25 Packages 0 B/48.8 kB 0%]                                                        95% [17 Packages store 0 B]                           Get:26 http://archive.ubuntu.com/ubuntu noble-backports/universe amd64 Packages [35.6 kB]
+95% [17 Packages store 0 B] [26 Packages 2619 B/35.6 kB 7%]                                                           96% [17 Packages store 0 B]                           96% [Working]96% [18 Packages store 0 B]                           96% [Working]96% [19 Packages store 0 B]                           97% [Working]97% [20 Packages store 0 B]                           97% [Working]97% [21 Packages store 0 B]                           98% [Working]98% [22 Packages store 0 B]                           98% [Working]98% [23 Packages store 0 B]                           99% [Working]99% [24 Packages store 0 B]                           99% [Working]99% [25 Packages store 0 B]                           100% [Working]100% [26 Packages store 0 B]                            100% [Working]              Fetched 33.7 MB in 3s (12.9 MB/s)
+Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 5%Reading package lists... 5%Reading package lists... 59%Reading package lists... 59%Reading package lists... 59%Reading package lists... 59%Reading package lists... 60%Reading package lists... 60%Reading package lists... 66%Reading package lists... 66%Reading package lists... 73%Reading package lists... 73%Reading package lists... 80%Reading package lists... 81%Reading package lists... 81%Reading package lists... 81%Reading package lists... 81%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 87%Reading package lists... 87%Reading package lists... 91%Reading package lists... 91%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... Done
+Reading state information... 0% Reading state information... 0%Reading state information... Done
+73 packages can be upgraded. Run 'apt list --upgradable' to see them.
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ sudo apt install shellcheck -y
+sudo apt install shellcheck -y
+
+[?2004lReading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 5%Reading package lists... 5%Reading package lists... 59%Reading package lists... 59%Reading package lists... 59%Reading package lists... 59%Reading package lists... 60%Reading package lists... 60%Reading package lists... 66%Reading package lists... 66%Reading package lists... 73%Reading package lists... 73%Reading package lists... 80%Reading package lists... 81%Reading package lists... 81%Reading package lists... 81%Reading package lists... 81%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 87%Reading package lists... 87%Reading package lists... 91%Reading package lists... 91%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... Done
+Reading state information... 0% Reading state information... 0%Reading state information... Done
+The following NEW packages will be installed:
+  shellcheck
+0 upgraded, 1 newly installed, 0 to remove and 73 not upgraded.
+Need to get 2845 kB of archives.
+After this operation, 19.5 MB of additional disk space will be used.
+0% [Working]            Get:1 http://archive.ubuntu.com/ubuntu noble/universe amd64 shellcheck amd64 0.9.0-1 [2845 kB]
+0% [1 shellcheck 3999 B/2845 kB 0%]19% [1 shellcheck 685 kB/2845 kB 24%]                                     100% [Working]              Fetched 2845 kB in 1s (3280 kB/s)
+debconf: unable to initialize frontend: Dialog
+debconf: (Dialog frontend requires a screen at least 13 lines tall and 31 columns wide.)
+debconf: falling back to frontend: Readline
+
+78Selecting previously unselected package shellcheck.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 58629 files and directories currently installed.)
+Preparing to unpack .../shellcheck_0.9.0-1_amd64.deb ...
+7Progress: [  0%] [..............................................................................................................] 87Progress: [ 20%] [######################........................................................................................] 8Unpacking shellcheck (0.9.0-1) ...
+7Progress: [ 40%] [############################################..................................................................] 8Setting up shellcheck (0.9.0-1) ...
+7Progress: [ 60%] [##################################################################............................................] 87Progress: [ 80%] [########################################################################################......................] 8Processing triggers for man-db (2.12.0-4build2) ...
+
+78[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ shellcheck --version
+shellcheck --version
+
+[?2004lShellCheck - shell script analysis tool
+version: 0.9.0
+license: GNU General Public License, version 3
+website: https://www.shellcheck.net
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ clear
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ clearshellcheck --versionudo apt install shellcheck -ymake tools
+[?2004lFalta shfmt
+make: *** [Makefile:46: tools] Error 1
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ sudo apt install shfmt -y
+sudo apt install shfmt -y
+
+[?2004lReading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 5%Reading package lists... 5%Reading package lists... 59%Reading package lists... 59%Reading package lists... 59%Reading package lists... 59%Reading package lists... 60%Reading package lists... 60%Reading package lists... 66%Reading package lists... 66%Reading package lists... 73%Reading package lists... 73%Reading package lists... 81%Reading package lists... 81%Reading package lists... 81%Reading package lists... 81%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 87%Reading package lists... 87%Reading package lists... 91%Reading package lists... 91%Reading package lists... 92%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... Done
+Reading state information... 0% Reading state information... 0%Reading state information... Done
+The following NEW packages will be installed:
+  shfmt
+0 upgraded, 1 newly installed, 0 to remove and 73 not upgraded.
+Need to get 1131 kB of archives.
+After this operation, 3038 kB of additional disk space will be used.
+0% [Working]            Get:1 http://archive.ubuntu.com/ubuntu noble/universe amd64 shfmt amd64 3.8.0-1 [1131 kB]
+1% [1 shfmt 14.0 kB/1131 kB 1%]47% [1 shfmt 667 kB/1131 kB 59%]                                100% [Working]              Fetched 1131 kB in 1s (1514 kB/s)
+debconf: unable to initialize frontend: Dialog
+debconf: (Dialog frontend requires a screen at least 13 lines tall and 31 columns wide.)
+debconf: falling back to frontend: Readline
+
+78Selecting previously unselected package shfmt.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 58634 files and directories currently installed.)
+Preparing to unpack .../shfmt_3.8.0-1_amd64.deb ...
+7Progress: [  0%] [..............................................................................................................] 87Progress: [ 20%] [######################........................................................................................] 8Unpacking shfmt (3.8.0-1) ...
+7Progress: [ 40%] [############################################..................................................................] 8Setting up shfmt (3.8.0-1) ...
+7Progress: [ 60%] [##################################################################............................................] 87Progress: [ 80%] [########################################################################################......................] 8Processing triggers for man-db (2.12.0-4build2) ...
+
+78[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ shfmt --version
+shfmt --version
+
+[?2004l3.8.0
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ shfmt --versionudo apt install shfmt -ymake toolsclearshellcheck --versionclearmake tools
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ clear
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ make verify-repromake verify-repro
+[?2004lSHA256_1=5eefc949598bdcf0afc1c604a8a366c9a5ca1f24bb5e29665b73a0b026f05636
+SHA256_2=5eefc949598bdcf0afc1c604a8a366c9a5ca1f24bb5e29665b73a0b026f05636
+OK: reproducible
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ make verify-repro >> README.md 
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ make clean && mkeake all >> README.md 
+[?2004lrm -rf out dist
+scripts/run_tests.sh: line 46: output: unbound variable
+scripts/run_tests.sh: line 19: wait_for: No record of process 17219
+Test falló: salida inesperada
+make: *** [Makefile:29: test] Error 2
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ make all >> EREADME.md 
+[?2004lscripts/run_tests.sh: line 46: output: unbound variable
+scripts/run_tests.sh: line 19: wait_for: No record of process 17450
+Test falló: salida inesperada
+make: *** [Makefile:29: test] Error 2
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ clear
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ PYTHON=python3.12 make testPYTHON=python3.12 make test >> README.md 
+[?2004lscripts/run_tests.sh: line 46: output: unbound variable
+scripts/run_tests.sh: line 19: wait_for: No record of process 18085
+Test falló: salida inesperada
+make: *** [Makefile:29: test] Error 2
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ PYTHON=python3.12 make test >> README.md 
+[?2004lscripts/run_tests.sh: line 46: output: unbound variable
+scripts/run_tests.sh: line 19: wait_for: No record of process 18290
+Test falló: salida inesperada
+make: *** [Makefile:29: test] Error 2
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ PYTHON=python3 make test >> README.md [3@.12
+[?2004lscripts/run_tests.sh: line 46: output: unbound variable
+scripts/run_tests.sh: line 19: wait_for: No record of process 18412
+Test falló: salida inesperada
+make: *** [Makefile:29: test] Error 2
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ PYTHON=python3.12 make test >> README.md 
+[?2004lscripts/run_tests.sh: line 46: output: unbound variable
+scripts/run_tests.sh: line 19: wait_for: No record of process 19526
+Test falló: salida inesperada
+make: *** [Makefile:29: test] Error 2
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ make test >> README.md 
+[?2004lscripts/run_tests.sh: line 46: output: unbound variable
+scripts/run_tests.sh: line 19: wait_for: No record of process 19806
+Test falló: salida inesperada
+make: *** [Makefile:29: test] Error 2
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ touch src/hello.pytouch src/hello.py
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ make all
+[?2004lshellcheck scripts/run_tests.sh
+shfmt -d scripts/run_tests.sh
+ruff no instalado; omitiendo lint Python
+mkdir -p out
+python3 src/hello.py > out/hello.txt
+scripts/run_tests.sh
+Demostrando pipefail:
+Sin pipefail: el pipe se considera exitoso (status 0).
+Con pipefail: se detecta el fallo (status != 0).
+Hello, World!
+scripts/run_tests.sh: line 46: output: unbound variable
+scripts/run_tests.sh: line 19: wait_for: No record of process 20478
+Test falló: salida inesperada
+make: *** [Makefile:29: test] Error 2
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ maeke all
+[?2004lshellcheck scripts/run_tests.sh
+shfmt -d scripts/run_tests.sh
+ruff no instalado; omitiendo lint Python
+scripts/run_tests.sh
+Demostrando pipefail:
+Sin pipefail: el pipe se considera exitoso (status 0).
+Con pipefail: se detecta el fallo (status != 0).
+Hello, World!
+scripts/run_tests.sh: line 46: output: unbound variable
+scripts/run_tests.sh: line 19: wait_for: No record of process 21052
+Test falló: salida inesperada
+make: *** [Makefile:29: test] Error 2
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ make all >> README.md 
+[?2004lscripts/run_tests.sh: line 46: output: unbound variable
+scripts/run_tests.sh: line 19: wait_for: No record of process 21582
+Test falló: salida inesperada
+make: *** [Makefile:29: test] Error 2
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ make -j4 all >> README.md 
+[?2004lscripts/run_tests.sh: line 46: output: unbound variable
+scripts/run_tests.sh: line 19: wait_for: No record of process 21972
+Test falló: salida inesperada
+make: *** [Makefile:29: test] Error 2
+make: *** Waiting for unfinished jobs....
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ make forlint >> README.md 
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ make format >> README.md 
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ make format >> README.md lin[3@-j4 alllint[2@forma
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ make format >> README.md lin
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ pip install ruff
+pip install ruff
+
+[?2004l
+Collecting ruff
+  Downloading ruff-0.13.2-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (25 kB)
+Downloading ruff-0.13.2-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (13.4 MB)
+[?25l   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 0.0/13.4 MB ? eta -:--:--   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╺ 13.1/13.4 MB 243.9 MB/s eta 0:00:01   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 13.4/13.4 MB 53.1 MB/s eta 0:00:00
+[?25hInstalling collected packages: ruff
+Successfully installed ruff-0.13.2
+
+[notice] A new release of pip is available: 25.1.1 -> 25.2
+[notice] To update, run: python3 -m pip install --upgrade pip
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ 
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ ruff --version
+ruff --version
+
+[?2004lruff 0.13.2
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ clear
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ make clean >> README.md 
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ make all >> README.md 
+[?2004ltest_greet (test_hello.TestGreet.test_greet) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ clear
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ PYTHON=python3.12 make testPYTHON=python3.12 make test >> README.md 
+[?2004ltest_greet (test_hello.TestGreet.test_greet) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ make test >> README.md 
+[?2004ltest_greet (test_hello.TestGreet.test_greet) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ touch src/hello.pytouch src/hello.py
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ make all >> README.md 
+[?2004ltest_greet (test_hello.TestGreet.test_greet) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ make -j4 all >> README.md 
+[?2004ltest_greet (test_hello.TestGreet.test_greet) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ make lint >> README.md 
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ make format >> README.md 
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ clear
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ make ilint
+[?2004lshellcheck scripts/run_tests.sh
+
+In scripts/run_tests.sh line 42:
+	local script= $1
+                     ^-- SC1007 (warning): Remove space after = if trying to assign a value (for empty string, use var='' ... ).
+                      ^-- SC2086 (info): Double quote to prevent globbing and word splitting.
+
+Did you mean: 
+	local script= "$1"
+
+For more information:
+  https://www.shellcheck.net/wiki/SC1007 -- Remove space after = if trying to...
+  https://www.shellcheck.net/wiki/SC2086 -- Double quote to prevent globbing ...
+make: *** [Makefile:39: lint] Error 1
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ make lint
+[?2004lshellcheck scripts/run_tests.sh
+shfmt -d scripts/run_tests.sh
+All checks passed!
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ clear
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ make lint >> README.md 
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ make lint >> README.md 
+[?2004lmake: *** [Makefile:39: lint] Error 1
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ make lint >> README.md 
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ make format >> README.md 
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ ruff check ersrc/ || true >> README.md 
+[?2004lAll checks passed!
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ clear
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ ./scripts/run_tests.sh >> README.md 
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ ls  out/
+[?2004lhello.txt  tmp_path.txt
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ ls out/@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ ./scripts/run_tests.sh >> README.md @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ clear@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ ./scripts/run_tests.sh >> README.md 
+[?2004l./scripts/run_tests.sh: line 75: out/tmp_path.txt: cannot overwrite existing file
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ clear
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ make benchmark  >> README.md 
+[?2004lreal 0.06
+user 0.03
+sys 0.02
+make: *** [Makefile:58: benchmark] Error 2
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ make benchmark >> README.md 
+[?2004lreal 0.08
+user 0.05
+sys 0.02
+make: *** [Makefile:58: benchmark] Error 2
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ maketouch src/hello.pytouch src/hello.py >> README.md 
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ touch src/hello.py >> README.md make benchmark
+[?2004lreal 0.10
+user 0.04
+sys 0.02
+make: *** [Makefile:58: benchmark] Error 2
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ chmod +x scripts/run_tests.shchmod +x scripts/run_tests.sh
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ make toolsmake tools
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ make helpmake help
+[?2004l  all           Construir, testear y empaquetar todo
+  build         Generar out/hello.txt
+  test          Ejecutar tests
+  package       Crear dist/app.tar.gz
+  lint          Lint Bash y (opcional) Python
+  tools         Verificar dependencias
+  check         Ejecutar lint y tests
+  benchmark     Medir tiempo de ejecución
+  format        Formatear scripts con shfmt
+  dist-clean    Limpiar todo (incluye caches opcionales)
+  verify-repro  Verificar que dist/app.tar.gz sea 100% reproducible
+  clean         Limpiar archivos generados
+  help          Mostrar ayuda
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ make help >> README.md 
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ clear
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ make all >> README.md 
+[?2004lmake: *** [Makefile:40: lint] Error 1
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ ls -l out/hello.txt dist/app.tar.gz
+ls -l out/hello.txt dist/app.tar.gz
+
+[?2004l-rw-rw-rw- 1 codespace codespace 125 Sep 26 04:31 dist/app.tar.gz
+-rw-rw-rw- 1 codespace codespace  14 Sep 26 04:31 out/hello.txt
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ ls -l out/hello.txt dist/app.tar.gz >>  README.md 
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ tar -tzf dist/app.tar.gz
+tar -tzf dist/app.tar.gz
+ >> >> README.md 
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ make benchmarkmake benchmark >> README.md 
+[?2004lreal 0.05
+user 0.03
+sys 0.02
+make: *** [Makefile:58: benchmark] Error 2
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ make benchmark >> README.md 
+[?2004lreal 0.05
+user 0.03
+sys 0.01
+make: *** [Makefile:58: benchmark] Error 2
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ make benchmark >> README.md 
+[?2004lreal 0.05
+user 0.03
+sys 0.02
+make: *** [Makefile:58: benchmark] Error 2
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ touch src/hello.py
+touch src/hello.py
+
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ touch src/hello.pymake benchmark >> README.md 
+[?2004lreal 0.05
+user 0.03
+sys 0.01
+make: *** [Makefile:58: benchmark] Error 2
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ make test >> README.md 
+[?2004lTest falló: salida inesperada
+make: *** [Makefile:29: test] Error 2
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ ./scripts/run_tests.sh ; echo $?./scripts/run_tests.sh ; echo $? >> README.md 
+[?2004lDemostrando pipefail:
+Sin pipefail: el pipe se considera exitoso (status 0).
+Con pipefail: se detecta el fallo (status != 0).
+Test falló: salida inesperada
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ clear
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ make lint >> README.md 
+[?2004lmake: *** [Makefile:40: lint] Error 1
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ make lint >> README.md 
+[?2004lmake: *** [Makefile:40: lint] Error 1
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ make lint >> README.md 
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ @Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ make format >> README.md 
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ ruff check src || trueruff check src || true >> README.md 
+[?2004lAll checks passed!
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ ruff check src || true >> README.md make formatlint
+[?2004lshellcheck scripts/run_tests.sh
+shfmt -d scripts/run_tests.sh
+All checks passed!
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ make dist-cleanmake dist-clean >> README.md 
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ make all
+make all
+ > >> README.md 
+[?2004ltest_greet (test_hello.TestGreet.test_greet) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ make verify-repro
+make verify-repro
+ >> README.md 
+[?2004l[?2004h@Chriss5-2 ➜ /workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 (main) $ eixit
+[?2004lexit
+
+Script done on 2025-09-26 05:16:10+00:00 [COMMAND_EXIT_CODE="0"]

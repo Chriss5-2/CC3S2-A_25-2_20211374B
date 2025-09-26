@@ -339,3 +339,415 @@ Test falló: salida inesperada
 [?2004lexit
 
 Script done on 2025-09-26 01:15:42+00:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2025-09-26 04:06:02+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="132" LINES="11"]
+[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2/lab-cli [0;36m([1;31mmain[0;36m) [0m$ clear 
+[?2004l[H[2J[3J[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2/lab-cli [0;36m([1;31mmain[0;36m) [0m$ cd ..
+[?2004l[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ clear
+[?2004l[H[2J[3J[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ make -n all
+[?2004lcommand -v python3 >/dev/null || { echo "Falta python3"; exit 1; }
+command -v shellcheck >/dev/null || { echo "Falta shellcheck"; exit 1; }
+command -v shfmt >/dev/null || { echo "Falta shfmt"; exit 1; }
+command -v grep >/dev/null || { echo "Falta grep"; exit 1; }
+command -v awk >/dev/null || { echo "Falta awk"; exit 1; }
+command -v tar >/dev/null || { echo "Falta tar"; exit 1; }
+tar --version 2>/dev/null | grep -q 'GNU tar' || { echo "Se requiere GNU tar"; exit 1; }
+command -v sha256sum >/dev/null || { echo "Falta sha256sum"; exit 1; }
+shellcheck scripts/run_tests.sh
+shfmt -d scripts/run_tests.sh
+command -v ruff >/dev/null 2>&1 && ruff check src || echo "ruff no instalado; omitiendo lint Python"
+mkdir -p out
+python3 src/hello.py > out/hello.txt
+scripts/run_tests.sh
+python3 -m unittest discover -s tests -v
+mkdir -p dist
+tar --sort=name --owner=0 --group=0 --numeric-owner --mtime='UTC 1970-01-01' -czf dist/app.tar.gz -C out hello.txt
+[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ make -n all >> README.md 
+[?2004l[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ clear
+[?2004l[H[2J[3J[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ make -d uikd[K[K[K[Kbuild >> README.md 
+[?2004l[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ make tools >> README.md 
+[?2004lmake: *** [Makefile:45: tools] Error 1
+[?2004h[0;32m@Chriss5-2 [1;31m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ [7msudo apt update[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo apt update
+[A
+[?2004l[33m0% [Working][0m            Get:1 https://packages.microsoft.com/repos/microsoft-ubuntu-noble-prod noble InRelease [3600 B]
+[33m0% [Connected to repo.anaconda.com (104.16.32.241)] [1 InRelease 3600 B/3600 B 100%] [Connecting to archive.ubuntu.com (185.125.190[0m[33m0% [Connected to repo.anaconda.com (104.16.32.241)] [Connecting to archive.ubuntu.com (185.125.190.39)] [Connecting to dl.yarnpkg.c[0m                                                                                                                                   Get:2 https://dl.yarnpkg.com/debian stable InRelease
+[33m                                                                                                                                   0% [Waiting for headers] [Waiting for headers] [2 InRelease 0 B][0m[33m                                                                0% [Waiting for headers] [Waiting for headers][0m                                              Get:3 http://security.ubuntu.com/ubuntu noble-security InRelease [126 kB]
+[33m0% [Waiting for headers] [Waiting for headers] [3 InRelease 14.0 kB/126 kB 11%][0m                                                                               Get:4 https://repo.anaconda.com/pkgs/misc/debrepo/conda stable InRelease [3961 B]
+[33m                                                                               0% [Waiting for headers] [3 InRelease 14.0 kB/126 kB 11%][0m                                                         Get:5 http://archive.ubuntu.com/ubuntu noble InRelease [256 kB]
+[33m0% [5 InRelease 14.0 kB/256 kB 5%] [3 InRelease 36.8 kB/126 kB 29%][0m[33m0% [5 InRelease 14.0 kB/256 kB 5%] [3 InRelease 42.5 kB/126 kB 34%][0m                                                                   Get:6 https://packages.microsoft.com/repos/microsoft-ubuntu-noble-prod noble/main all Packages [643 B]
+[33m0% [5 InRelease 14.0 kB/256 kB 5%] [3 InRelease 126 kB/126 kB 100%][0m[33m                                                                   0% [5 InRelease 14.0 kB/256 kB 5%][0m[33m0% [6 Packages store 0 B] [Waiting for headers] [5 InRelease 14.0 kB/256 kB 5%][0m[33m                                                                               0% [Waiting for headers] [5 InRelease 14.0 kB/256 kB 5%][0m                                                        Get:7 https://packages.microsoft.com/repos/microsoft-ubuntu-noble-prod noble/main amd64 Packages [56.8 kB]
+[33m0% [7 Packages 31.7 kB/56.8 kB 56%] [5 InRelease 14.0 kB/256 kB 5%][0m[33m                                                                   0% [5 InRelease 14.0 kB/256 kB 5%][0m[33m0% [7 Packages store 0 B] [5 InRelease 14.0 kB/256 kB 5%][0m[33m                                                         0% [5 InRelease 14.0 kB/256 kB 5%][0m[33m0% [5 InRelease 22.5 kB/256 kB 9%][0m                                  Get:8 https://dl.yarnpkg.com/debian stable/main amd64 Packages [11.8 kB]
+[33m0% [5 InRelease 28.3 kB/256 kB 11%] [8 Packages 11.8 kB/11.8 kB 100%][0m[33m                                                                     0% [5 InRelease 28.3 kB/256 kB 11%][0m[33m0% [8 Packages store 0 B] [5 InRelease 28.3 kB/256 kB 11%] [Waiting for headers][0m[33m                                                                                0% [5 InRelease 28.3 kB/256 kB 11%] [Waiting for headers][0m[33m0% [5 InRelease 42.5 kB/256 kB 17%] [Waiting for headers][0m                                                         Get:9 https://dl.yarnpkg.com/debian stable/main all Packages [11.8 kB]
+[33m0% [Waiting for headers] [5 InRelease 42.5 kB/256 kB 17%] [9 Packages 11.8 kB/11.8 kB 100%][0m[33m                                                                                           0% [Waiting for headers] [5 InRelease 42.5 kB/256 kB 17%][0m[33m0% [9 Packages store 0 B] [Waiting for headers] [5 InRelease 42.5 kB/256 kB 17%][0m[33m                                                                                0% [Waiting for headers] [5 InRelease 42.5 kB/256 kB 17%][0m                                                         Get:10 https://repo.anaconda.com/pkgs/misc/debrepo/conda stable/main amd64 Packages [4557 B]
+[33m0% [10 Packages 0 B/4557 B 0%] [5 InRelease 62.5 kB/256 kB 24%][0m[33m                                                               0% [5 InRelease 62.5 kB/256 kB 24%][0m[33m0% [5 InRelease 62.5 kB/256 kB 24%][0m[33m0% [5 InRelease 68.2 kB/256 kB 27%][0m                                   Get:11 http://security.ubuntu.com/ubuntu noble-security/restricted amd64 Packages [2376 kB]
+[33m0% [5 InRelease 76.8 kB/256 kB 30%] [11 Packages 15.5 kB/2376 kB 1%][0m[33m                                                                    0% [5 InRelease 148 kB/256 kB 58%][0m[33m0% [11 Packages store 0 B] [5 InRelease 151 kB/256 kB 59%] [Waiting for headers][0m                                                                                Get:12 http://security.ubuntu.com/ubuntu noble-security/universe amd64 Packages [1136 kB]
+[33m0% [11 Packages store 0 B] [5 InRelease 171 kB/256 kB 67%] [12 Packages 0 B/1136 kB 0%][0m[33m                                                                                       0% [11 Packages store 0 B] [5 InRelease 185 kB/256 kB 72%][0m                                                          Get:13 http://security.ubuntu.com/ubuntu noble-security/multiverse amd64 Packages [34.6 kB]
+[33m0% [11 Packages store 0 B] [5 InRelease 188 kB/256 kB 74%] [13 Packages 0 B/34.6 kB 0%][0m                                                                                       Get:14 http://security.ubuntu.com/ubuntu noble-security/main amd64 Packages [1474 kB]
+[33m0% [11 Packages store 0 B] [5 InRelease 188 kB/256 kB 74%] [14 Packages 196 kB/1474 kB 13%][0m[33m                                                                                           0% [11 Packages store 0 B] [5 InRelease 202 kB/256 kB 79%][0m[33m                                                          0% [11 Packages store 0 B] [Waiting for headers][0m[33m                                                0% [Waiting for headers][0m[33m0% [12 Packages store 0 B] [Waiting for headers][0m[33m0% [12 Packages store 0 B] [Waiting for headers][0m                                                Get:15 http://archive.ubuntu.com/ubuntu noble-updates InRelease [126 kB]
+[33m                                                0% [15 InRelease 26.8 kB/126 kB 21%][0m[33m0% [15 InRelease 38.2 kB/126 kB 30%][0m[33m0% [14 Packages store 0 B] [15 InRelease 41.1 kB/126 kB 33%][0m[33m                                                            0% [14 Packages store 0 B][0m[33m                          0% [Waiting for headers][0m[33m0% [Waiting for headers][0m                        Get:16 http://archive.ubuntu.com/ubuntu noble-backports InRelease [126 kB]
+[33m0% [16 InRelease 2548 B/126 kB 2%][0m[33m                                  0% [Working][0m[33m29% [Waiting for headers][0m                         Get:17 http://archive.ubuntu.com/ubuntu noble/universe amd64 Packages [19.3 MB]
+[33m29% [17 Packages 2613 B/19.3 MB 0%][0m[33m50% [17 Packages 8717 kB/19.3 MB 45%][0m                                     Get:18 http://archive.ubuntu.com/ubuntu noble/main amd64 Packages [1808 kB]
+[33m                                     76% [18 Packages 201 kB/1808 kB 11%][0m[33m76% [17 Packages store 0 B] [18 Packages 325 kB/1808 kB 18%][0m                                                            Get:19 http://archive.ubuntu.com/ubuntu noble/multiverse amd64 Packages [331 kB]
+[33m                                                            80% [17 Packages store 0 B] [19 Packages 156 kB/331 kB 47%][0m[33m                                                           80% [17 Packages store 0 B][0m                           Get:20 http://archive.ubuntu.com/ubuntu noble/restricted amd64 Packages [117 kB]
+[33m80% [17 Packages store 0 B] [20 Packages 0 B/117 kB 0%][0m[33m                                                       80% [17 Packages store 0 B][0m                           Get:21 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 Packages [1828 kB]
+[33m80% [17 Packages store 0 B] [21 Packages 0 B/1828 kB 0%][0m[33m                                                        85% [17 Packages store 0 B][0m                           Get:22 http://archive.ubuntu.com/ubuntu noble-updates/multiverse amd64 Packages [38.9 kB]
+[33m85% [17 Packages store 0 B] [22 Packages 38.9 kB/38.9 kB 100%][0m[33m                                                              85% [17 Packages store 0 B][0m                           Get:23 http://archive.ubuntu.com/ubuntu noble-updates/restricted amd64 Packages [2483 kB]
+[33m85% [17 Packages store 0 B] [23 Packages 0 B/2483 kB 0%][0m[33m                                                        91% [17 Packages store 0 B][0m                           Get:24 http://archive.ubuntu.com/ubuntu noble-updates/universe amd64 Packages [1923 kB]
+[33m91% [17 Packages store 0 B] [24 Packages 75.4 kB/1923 kB 4%][0m[33m95% [17 Packages store 0 B] [Connecting to archive.ubuntu.com (185.125.190.39)][0m                                                                               Get:25 http://archive.ubuntu.com/ubuntu noble-backports/main amd64 Packages [48.8 kB]
+[33m                                                                               95% [17 Packages store 0 B] [25 Packages 0 B/48.8 kB 0%][0m[33m                                                        95% [17 Packages store 0 B][0m                           Get:26 http://archive.ubuntu.com/ubuntu noble-backports/universe amd64 Packages [35.6 kB]
+[33m95% [17 Packages store 0 B] [26 Packages 2619 B/35.6 kB 7%][0m[33m                                                           96% [17 Packages store 0 B][0m[33m                           96% [Working][0m[33m96% [18 Packages store 0 B][0m[33m                           96% [Working][0m[33m96% [19 Packages store 0 B][0m[33m                           97% [Working][0m[33m97% [20 Packages store 0 B][0m[33m                           97% [Working][0m[33m97% [21 Packages store 0 B][0m[33m                           98% [Working][0m[33m98% [22 Packages store 0 B][0m[33m                           98% [Working][0m[33m98% [23 Packages store 0 B][0m[33m                           99% [Working][0m[33m99% [24 Packages store 0 B][0m[33m                           99% [Working][0m[33m99% [25 Packages store 0 B][0m[33m                           100% [Working][0m[33m100% [26 Packages store 0 B][0m[33m                            100% [Working][0m              Fetched 33.7 MB in 3s (12.9 MB/s)
+Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 5%Reading package lists... 5%Reading package lists... 59%Reading package lists... 59%Reading package lists... 59%Reading package lists... 59%Reading package lists... 60%Reading package lists... 60%Reading package lists... 66%Reading package lists... 66%Reading package lists... 73%Reading package lists... 73%Reading package lists... 80%Reading package lists... 81%Reading package lists... 81%Reading package lists... 81%Reading package lists... 81%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 87%Reading package lists... 87%Reading package lists... 91%Reading package lists... 91%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... Done
+Reading state information... 0% Reading state information... 0%Reading state information... Done
+73 packages can be upgraded. Run 'apt list --upgradable' to see them.
+[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ [7msudo apt install shellcheck -y[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo apt install shellcheck -y
+[A
+[?2004lReading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 5%Reading package lists... 5%Reading package lists... 59%Reading package lists... 59%Reading package lists... 59%Reading package lists... 59%Reading package lists... 60%Reading package lists... 60%Reading package lists... 66%Reading package lists... 66%Reading package lists... 73%Reading package lists... 73%Reading package lists... 80%Reading package lists... 81%Reading package lists... 81%Reading package lists... 81%Reading package lists... 81%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 87%Reading package lists... 87%Reading package lists... 91%Reading package lists... 91%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... Done
+Reading state information... 0% Reading state information... 0%Reading state information... Done
+The following NEW packages will be installed:
+  shellcheck
+0 upgraded, 1 newly installed, 0 to remove and 73 not upgraded.
+Need to get 2845 kB of archives.
+After this operation, 19.5 MB of additional disk space will be used.
+[33m0% [Working][0m            Get:1 http://archive.ubuntu.com/ubuntu noble/universe amd64 shellcheck amd64 0.9.0-1 [2845 kB]
+[33m0% [1 shellcheck 3999 B/2845 kB 0%][0m[33m19% [1 shellcheck 685 kB/2845 kB 24%][0m[33m                                     100% [Working][0m              Fetched 2845 kB in 1s (3280 kB/s)
+debconf: unable to initialize frontend: Dialog
+debconf: (Dialog frontend requires a screen at least 13 lines tall and 31 columns wide.)
+debconf: falling back to frontend: Readline
+
+7[0;10r8[1ASelecting previously unselected package shellcheck.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 58629 files and directories currently installed.)
+Preparing to unpack .../shellcheck_0.9.0-1_amd64.deb ...
+7[11;0f[42m[30mProgress: [  0%][49m[39m [..............................................................................................................] 87[11;0f[42m[30mProgress: [ 20%][49m[39m [######################........................................................................................] 8Unpacking shellcheck (0.9.0-1) ...
+7[11;0f[42m[30mProgress: [ 40%][49m[39m [############################################..................................................................] 8Setting up shellcheck (0.9.0-1) ...
+7[11;0f[42m[30mProgress: [ 60%][49m[39m [##################################################################............................................] 87[11;0f[42m[30mProgress: [ 80%][49m[39m [########################################################################################......................] 8Processing triggers for man-db (2.12.0-4build2) ...
+
+7[0;11r8[1A[J[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ [7mshellcheck --version[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cshellcheck --version
+[A
+[?2004lShellCheck - shell script analysis tool
+version: 0.9.0
+license: GNU General Public License, version 3
+website: https://www.shellcheck.net
+[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ clear
+[?2004l[H[2J[3J[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ clearshellcheck --versionudo apt install shellcheck -y[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kmake tools
+[?2004lFalta shfmt
+make: *** [Makefile:46: tools] Error 1
+[?2004h[0;32m@Chriss5-2 [1;31m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ [7msudo apt install shfmt -y[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo apt install shfmt -y
+[A
+[?2004lReading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 5%Reading package lists... 5%Reading package lists... 59%Reading package lists... 59%Reading package lists... 59%Reading package lists... 59%Reading package lists... 60%Reading package lists... 60%Reading package lists... 66%Reading package lists... 66%Reading package lists... 73%Reading package lists... 73%Reading package lists... 81%Reading package lists... 81%Reading package lists... 81%Reading package lists... 81%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 87%Reading package lists... 87%Reading package lists... 91%Reading package lists... 91%Reading package lists... 92%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... Done
+Reading state information... 0% Reading state information... 0%Reading state information... Done
+The following NEW packages will be installed:
+  shfmt
+0 upgraded, 1 newly installed, 0 to remove and 73 not upgraded.
+Need to get 1131 kB of archives.
+After this operation, 3038 kB of additional disk space will be used.
+[33m0% [Working][0m            Get:1 http://archive.ubuntu.com/ubuntu noble/universe amd64 shfmt amd64 3.8.0-1 [1131 kB]
+[33m1% [1 shfmt 14.0 kB/1131 kB 1%][0m[33m47% [1 shfmt 667 kB/1131 kB 59%][0m[33m                                100% [Working][0m              Fetched 1131 kB in 1s (1514 kB/s)
+debconf: unable to initialize frontend: Dialog
+debconf: (Dialog frontend requires a screen at least 13 lines tall and 31 columns wide.)
+debconf: falling back to frontend: Readline
+
+7[0;10r8[1ASelecting previously unselected package shfmt.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 58634 files and directories currently installed.)
+Preparing to unpack .../shfmt_3.8.0-1_amd64.deb ...
+7[11;0f[42m[30mProgress: [  0%][49m[39m [..............................................................................................................] 87[11;0f[42m[30mProgress: [ 20%][49m[39m [######################........................................................................................] 8Unpacking shfmt (3.8.0-1) ...
+7[11;0f[42m[30mProgress: [ 40%][49m[39m [############################################..................................................................] 8Setting up shfmt (3.8.0-1) ...
+7[11;0f[42m[30mProgress: [ 60%][49m[39m [##################################################################............................................] 87[11;0f[42m[30mProgress: [ 80%][49m[39m [########################################################################################......................] 8Processing triggers for man-db (2.12.0-4build2) ...
+
+7[0;11r8[1A[J[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ [7mshfmt --version[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cshfmt --version
+[A
+[?2004l3.8.0
+[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ shfmt --versionudo apt install shfmt -y[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kmake tools[5Pclearshellcheck --versionclear[Kmake tools
+[?2004l[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ clear
+[?2004l[H[2J[3J[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ [7mmake verify-repro[27mmake verify-repro
+[?2004lSHA256_1=5eefc949598bdcf0afc1c604a8a366c9a5ca1f24bb5e29665b73a0b026f05636
+SHA256_2=5eefc949598bdcf0afc1c604a8a366c9a5ca1f24bb5e29665b73a0b026f05636
+OK: reproducible
+[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ make verify-repro >> README.md 
+[?2004l[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ make clean && mke[K[Kake all >> README.md 
+[?2004lrm -rf out dist
+scripts/run_tests.sh: line 46: output: unbound variable
+scripts/run_tests.sh: line 19: wait_for: No record of process 17219
+Test falló: salida inesperada
+make: *** [Makefile:29: test] Error 2
+[?2004h[0;32m@Chriss5-2 [1;31m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ make all >> E[KREADME.md 
+[?2004lscripts/run_tests.sh: line 46: output: unbound variable
+scripts/run_tests.sh: line 19: wait_for: No record of process 17450
+Test falló: salida inesperada
+make: *** [Makefile:29: test] Error 2
+[?2004h[0;32m@Chriss5-2 [1;31m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ clear
+[?2004l[H[2J[3J[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ [7mPYTHON=python3.12 make test[27mPYTHON=python3.12 make test >> README.md 
+[?2004lscripts/run_tests.sh: line 46: output: unbound variable
+scripts/run_tests.sh: line 19: wait_for: No record of process 18085
+Test falló: salida inesperada
+make: *** [Makefile:29: test] Error 2
+[?2004h[0;32m@Chriss5-2 [1;31m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ PYTHON=python3.12 make test >> README.md [C[C[1P[1P[1P
+[?2004lscripts/run_tests.sh: line 46: output: unbound variable
+scripts/run_tests.sh: line 19: wait_for: No record of process 18290
+Test falló: salida inesperada
+make: *** [Makefile:29: test] Error 2
+[?2004h[0;32m@Chriss5-2 [1;31m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ PYTHON=python3 make test >> README.md [3@.12[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004lscripts/run_tests.sh: line 46: output: unbound variable
+scripts/run_tests.sh: line 19: wait_for: No record of process 18412
+Test falló: salida inesperada
+make: *** [Makefile:29: test] Error 2
+[?2004h[0;32m@Chriss5-2 [1;31m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@Chriss5-2 [1;31m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@Chriss5-2 [1;31m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@Chriss5-2 [1;31m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@Chriss5-2 [1;31m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ PYTHON=python3.12 make test >> README.md 
+[?2004lscripts/run_tests.sh: line 46: output: unbound variable
+scripts/run_tests.sh: line 19: wait_for: No record of process 19526
+Test falló: salida inesperada
+make: *** [Makefile:29: test] Error 2
+[?2004h[0;32m@Chriss5-2 [1;31m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ make test >> README.md 
+[?2004lscripts/run_tests.sh: line 46: output: unbound variable
+scripts/run_tests.sh: line 19: wait_for: No record of process 19806
+Test falló: salida inesperada
+make: *** [Makefile:29: test] Error 2
+[?2004h[0;32m@Chriss5-2 [1;31m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@Chriss5-2 [1;31m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@Chriss5-2 [1;31m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ [7mtouch src/hello.py[27mtouch src/hello.py
+[?2004l[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ make all
+[?2004lshellcheck scripts/run_tests.sh
+shfmt -d scripts/run_tests.sh
+ruff no instalado; omitiendo lint Python
+mkdir -p out
+python3 src/hello.py > out/hello.txt
+scripts/run_tests.sh
+Demostrando pipefail:
+Sin pipefail: el pipe se considera exitoso (status 0).
+Con pipefail: se detecta el fallo (status != 0).
+Hello, World!
+scripts/run_tests.sh: line 46: output: unbound variable
+scripts/run_tests.sh: line 19: wait_for: No record of process 20478
+Test falló: salida inesperada
+make: *** [Makefile:29: test] Error 2
+[?2004h[0;32m@Chriss5-2 [1;31m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@Chriss5-2 [1;31m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ mae[Kke all
+[?2004lshellcheck scripts/run_tests.sh
+shfmt -d scripts/run_tests.sh
+ruff no instalado; omitiendo lint Python
+scripts/run_tests.sh
+Demostrando pipefail:
+Sin pipefail: el pipe se considera exitoso (status 0).
+Con pipefail: se detecta el fallo (status != 0).
+Hello, World!
+scripts/run_tests.sh: line 46: output: unbound variable
+scripts/run_tests.sh: line 19: wait_for: No record of process 21052
+Test falló: salida inesperada
+make: *** [Makefile:29: test] Error 2
+[?2004h[0;32m@Chriss5-2 [1;31m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@Chriss5-2 [1;31m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@Chriss5-2 [1;31m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@Chriss5-2 [1;31m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ make all >> README.md 
+[?2004lscripts/run_tests.sh: line 46: output: unbound variable
+scripts/run_tests.sh: line 19: wait_for: No record of process 21582
+Test falló: salida inesperada
+make: *** [Makefile:29: test] Error 2
+[?2004h[0;32m@Chriss5-2 [1;31m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ make -j4 all >> README.md 
+[?2004lscripts/run_tests.sh: line 46: output: unbound variable
+scripts/run_tests.sh: line 19: wait_for: No record of process 21972
+Test falló: salida inesperada
+make: *** [Makefile:29: test] Error 2
+make: *** Waiting for unfinished jobs....
+[?2004h[0;32m@Chriss5-2 [1;31m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ make for[K[K[Klint >> README.md 
+[?2004l[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ make format >> README.md 
+[?2004l[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ make format >> README.md [2Plin[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3@-j4 all[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3Plint[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2@forma[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ make format >> README.md [2Plin[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ [7mpip install ruff[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpip install ruff
+[A
+[?2004l
+Collecting ruff
+  Downloading ruff-0.13.2-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (25 kB)
+Downloading ruff-0.13.2-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (13.4 MB)
+[?25l   [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/13.4 MB[0m [31m?[0m eta [36m-:--:--[0m[2K   [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;5;237m╺[0m [32m13.1/13.4 MB[0m [31m243.9 MB/s[0m eta [36m0:00:01[0m[2K   [38;2;114;156;31m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m13.4/13.4 MB[0m [31m53.1 MB/s[0m eta [36m0:00:00[0m
+[?25hInstalling collected packages: ruff
+Successfully installed ruff-0.13.2
+
+[1m[[0m[34;49mnotice[0m[1;39;49m][0m[39;49m A new release of pip is available: [0m[31;49m25.1.1[0m[39;49m -> [0m[32;49m25.2[0m
+[1m[[0m[34;49mnotice[0m[1;39;49m][0m[39;49m To update, run: [0m[32;49mpython3 -m pip install --upgrade pip[0m
+[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ 
+[?2004l[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ [7mruff --version[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cruff --version
+[A
+[?2004lruff 0.13.2
+[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ clear
+[?2004l[H[2J[3J[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ make clean >> README.md 
+[?2004l[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ make all >> README.md 
+[?2004ltest_greet (test_hello.TestGreet.test_greet) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ clear
+[?2004l[H[2J[3J[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ [7mPYTHON=python3.12 make test[27mPYTHON=python3.12 make test >> README.md 
+[?2004ltest_greet (test_hello.TestGreet.test_greet) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ make test >> README.md 
+[?2004ltest_greet (test_hello.TestGreet.test_greet) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ [7mtouch src/hello.py[27mtouch src/hello.py
+[?2004l[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ make all >> README.md 
+[?2004ltest_greet (test_hello.TestGreet.test_greet) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ make -j4 all >> README.md 
+[?2004ltest_greet (test_hello.TestGreet.test_greet) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ make lint >> README.md 
+[?2004l[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ make format >> README.md 
+[?2004l[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ clear
+[?2004l[H[2J[3J[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ make i[Klint
+[?2004lshellcheck scripts/run_tests.sh
+
+[1mIn scripts/run_tests.sh line 42:[0m
+[0m	local script= $1[0m
+[33m                     ^-- SC1007 (warning): Remove space after = if trying to assign a value (for empty string, use var='' ... ).[0m
+[32m                      ^-- SC2086 (info): Double quote to prevent globbing and word splitting.[0m
+
+[1mDid you mean: [0m
+	local script= "$1"
+
+For more information:
+  https://www.shellcheck.net/wiki/SC1007 -- Remove space after = if trying to...
+  https://www.shellcheck.net/wiki/SC2086 -- Double quote to prevent globbing ...
+make: *** [Makefile:39: lint] Error 1
+[?2004h[0;32m@Chriss5-2 [1;31m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ make lint
+[?2004lshellcheck scripts/run_tests.sh
+shfmt -d scripts/run_tests.sh
+All checks passed!
+[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ clear
+[?2004l[H[2J[3J[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ make lint >> README.md 
+[?2004l[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ make lint >> README.md 
+[?2004lmake: *** [Makefile:39: lint] Error 1
+[?2004h[0;32m@Chriss5-2 [1;31m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ make lint >> README.md 
+[?2004l[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ make format >> README.md 
+[?2004l[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ ruff check er[K[Ksrc/[K || true >> README.md 
+[?2004lAll checks passed!
+[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ clear
+[?2004l[H[2J[3J[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ ./scripts/run_tests.sh >> README.md 
+[?2004l[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ ls  out/
+[?2004lhello.txt  tmp_path.txt
+[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ ls out/[A[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ ./scripts/run_tests.sh >> README.md [A[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ clear[K[A[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ ./scripts/run_tests.sh >> README.md 
+[?2004l./scripts/run_tests.sh: line 75: out/tmp_path.txt: cannot overwrite existing file
+[?2004h[0;32m@Chriss5-2 [1;31m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@Chriss5-2 [1;31m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ clear
+[?2004l[H[2J[3J[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ make benchmark [K >> README.md 
+[?2004lreal 0.06
+user 0.03
+sys 0.02
+make: *** [Makefile:58: benchmark] Error 2
+[?2004h[0;32m@Chriss5-2 [1;31m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ make benchmark >> README.md 
+[?2004lreal 0.08
+user 0.05
+sys 0.02
+make: *** [Makefile:58: benchmark] Error 2
+[?2004h[0;32m@Chriss5-2 [1;31m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@Chriss5-2 [1;31m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@Chriss5-2 [1;31m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ make[K[K[K[K[7mtouch src/hello.py[27mtouch src/hello.py >> README.md 
+[?2004l[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ touch src/hello.py >> README.md [4Pmake benchmark[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004lreal 0.10
+user 0.04
+sys 0.02
+make: *** [Makefile:58: benchmark] Error 2
+[?2004h[0;32m@Chriss5-2 [1;31m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ [7mchmod +x scripts/run_tests.sh[27mchmod +x scripts/run_tests.sh
+[?2004l[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ [7mmake tools[27mmake tools
+[?2004l[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ [7mmake help[27mmake help
+[?2004l  all           Construir, testear y empaquetar todo
+  build         Generar out/hello.txt
+  test          Ejecutar tests
+  package       Crear dist/app.tar.gz
+  lint          Lint Bash y (opcional) Python
+  tools         Verificar dependencias
+  check         Ejecutar lint y tests
+  benchmark     Medir tiempo de ejecución
+  format        Formatear scripts con shfmt
+  dist-clean    Limpiar todo (incluye caches opcionales)
+  verify-repro  Verificar que dist/app.tar.gz sea 100% reproducible
+  clean         Limpiar archivos generados
+  help          Mostrar ayuda
+[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ make help >> README.md 
+[?2004l[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ clear
+[?2004l[H[2J[3J[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ make all >> README.md 
+[?2004lmake: *** [Makefile:40: lint] Error 1
+[?2004h[0;32m@Chriss5-2 [1;31m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ [7mls -l out/hello.txt dist/app.tar.gz[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls -l out/hello.txt dist/app.tar.gz
+[A
+[?2004l-rw-rw-rw- 1 codespace codespace 125 Sep 26 04:31 [0m[01;31mdist/app.tar.gz[0m
+-rw-rw-rw- 1 codespace codespace  14 Sep 26 04:31 out/hello.txt
+[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ ls -l out/hello.txt dist/app.tar.gz >>  README.md 
+[?2004l[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ [7mtar -tzf dist/app.tar.gz[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctar -tzf dist/app.tar.gz
+ >>[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C >> README.md 
+[?2004l[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ [7mmake benchmark[27mmake benchmark >> README.md 
+[?2004lreal 0.05
+user 0.03
+sys 0.02
+make: *** [Makefile:58: benchmark] Error 2
+[?2004h[0;32m@Chriss5-2 [1;31m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ make benchmark >> README.md [C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004lreal 0.05
+user 0.03
+sys 0.01
+make: *** [Makefile:58: benchmark] Error 2
+[?2004h[0;32m@Chriss5-2 [1;31m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ make benchmark >> README.md 
+[?2004lreal 0.05
+user 0.03
+sys 0.02
+make: *** [Makefile:58: benchmark] Error 2
+[?2004h[0;32m@Chriss5-2 [1;31m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ [7mtouch src/hello.py[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctouch src/hello.py
+[A
+[?2004l[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ touch src/hello.pymake benchmark >> README.md 
+[?2004lreal 0.05
+user 0.03
+sys 0.01
+make: *** [Makefile:58: benchmark] Error 2
+[?2004h[0;32m@Chriss5-2 [1;31m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@Chriss5-2 [1;31m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@Chriss5-2 [1;31m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ make test >> README.md 
+[?2004lTest falló: salida inesperada
+make: *** [Makefile:29: test] Error 2
+[?2004h[0;32m@Chriss5-2 [1;31m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ [7m./scripts/run_tests.sh ; echo $?[27m./scripts/run_tests.sh ; echo $? >> README.md 
+[?2004lDemostrando pipefail:
+Sin pipefail: el pipe se considera exitoso (status 0).
+Con pipefail: se detecta el fallo (status != 0).
+Test falló: salida inesperada
+[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ clear
+[?2004l[H[2J[3J[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ make lint >> README.md 
+[?2004lmake: *** [Makefile:40: lint] Error 1
+[?2004h[0;32m@Chriss5-2 [1;31m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ make lint >> README.md 
+[?2004lmake: *** [Makefile:40: lint] Error 1
+[?2004h[0;32m@Chriss5-2 [1;31m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@Chriss5-2 [1;31m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@Chriss5-2 [1;31m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ make lint >> README.md 
+[?2004l[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ make format >> README.md 
+[?2004l[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ [7mruff check src || true[27mruff check src || true >> README.md 
+[?2004lAll checks passed!
+[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ ruff check src || true >> README.md [11Pmake format[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2Plin[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kt
+[?2004lshellcheck scripts/run_tests.sh
+shfmt -d scripts/run_tests.sh
+All checks passed!
+[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ [7mmake dist-clean[27mmake dist-clean >> README.md 
+[?2004l[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ [7mmake all[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmake all
+ >[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C >> README.md 
+[?2004ltest_greet (test_hello.TestGreet.test_greet) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ [7mmake verify-repro[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmake verify-repro
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C >> README.md 
+[?2004l[?2004h[0;32m@Chriss5-2 [0m➜ [1;34m/workspaces/CC3S2-A_25-2_20211374B/Actividad5-CC3S2 [0;36m([1;31mmain[0;36m) [0m$ ei[Kxit
+[?2004lexit
+
+Script done on 2025-09-26 05:16:10+00:00 [COMMAND_EXIT_CODE="0"]
