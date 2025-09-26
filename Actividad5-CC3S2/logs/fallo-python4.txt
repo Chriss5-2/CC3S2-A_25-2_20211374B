@@ -1,0 +1,2 @@
+exit=0
+-rw-rw-rw- 1 codespace codespace 14 Sep 25 17:56 out/hello.txt
